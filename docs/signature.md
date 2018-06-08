@@ -1,12 +1,14 @@
 # Signature
 
-Signature is the only criterion for determining data authenticity between you and LianLian. We use [RSA digital signature](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) with ```MD5withRSA``` algorithm in key size 1024 to implement the signature process.
+Signature is the only criterion for determining data authenticity between you and LianLian. We use [RSA digital signature][1] with ```MD5withRSA``` algorithm in key size 1024 to implement the signature process.
+
+[1]: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
 ![RSA Data Security Digital Signature Process](../assests/image-rsa-process.png)
 
-> This process is from [Microsoft documents, RSA Data Security Digital Signature Process][1]
+> This process is from [Microsoft documents, RSA Data Security Digital Signature Process][2]
 
-[1]: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc962021(v%3dtechnet.10)#rsa-data-security-digital-signature-process
+[2]: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc962021(v%3dtechnet.10)#rsa-data-security-digital-signature-process
 
 There are two sets of public and private keys, one from merchant and another one is from LianLian in the whole verification process:
 
