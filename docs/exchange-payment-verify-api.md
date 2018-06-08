@@ -57,7 +57,7 @@ curl https://fe-pay.lianlianpay.com/exchange/v1/bankcardpayverify \
 |ret_code|Required|String(4)|Return code, whether the request is handled successfully or not. Refer to [return codes](return-codes.md)|
 |ret_msg|Required|String(100)|Return message, description of ```ret_code```, in Chinese |
 
-The following parameters are returned only when ```ret_code=0000```(Could be considered as ```result_pay=SUCCESS``` in this API):
+The following parameters are returned only when ```ret_code=0000```:
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
