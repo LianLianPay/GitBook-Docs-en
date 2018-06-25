@@ -22,7 +22,7 @@ https: //traderapi.lianlianpay.com/bankcardunbind.htm
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
 |platform|Optional|String(32)|Used for sharing user information between several ```oid_partner```, do NOT use it if you are not sure, or ask help from LianLian Supports|
 |pay_type|Optional|String| 2, Express Payment (Debit card) <br> 3, Express Payment (Credit card) <br> D, Verified Payment <br> By default the value is 2 |
-|no_agree|Required|String| A token which represents the key payment information, refer to [Binding Card](easypay.md) for more details|
+|no_agree|Required|String| A token which represents the key payment information, refer to [Binding Card](card-bind-overview.md) for more details|
 
 ###### Sample Request
 

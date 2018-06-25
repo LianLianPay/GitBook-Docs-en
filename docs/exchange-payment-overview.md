@@ -26,7 +26,7 @@ Below is a typical UML sequence diagram for the interactions of Exchange Payment
 
 ![Exchange Payment Flow](../assests/exchange-payment-flow.svg)
 
-Whenever your customer has finished the verification step, LianLian will proceed with the payment request and communicate with our gateways to obtain the payment result. Once it is confirmed as a successful transaction, LianLian sends out the [Exchange Payment asynchronous notification](exchange-payment-async-notification.md) immediately to your server. You can then verify the HTTP request and then procced with your delivery logic.
+Whenever your customer has finished the verification step, LianLian will proceed with the payment request and communicate with our gateways to obtain the payment result. Once it is confirmed as a successful transaction, LianLian sends out the [Exchange Payment asynchronous notification](exchange-payment-async-notification.md) immediately to your server. You can then verify the HTTP request and then proceed with your delivery logic.
 
 > A SMS verification code is only available for 10 min. To re-send it, you can simply re-do the request to [Exchange Payment Apply API](exchange-payment-apply-api.md), after that a new code would be sent out.
 

@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 aggregate-direct-api-flow.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="10.9661in" height="19.8465in"
+		viewBox="0 0 789.558 1428.95" xml:space="preserve" color-interpolation-filters="sRGB" class="st18">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:prompt="" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#a5a5a5;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st2 {stroke:#9b9b9b;stroke-dasharray:3.5,2.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st3 {fill:#ffffff;font-family:Segoe UI;font-size:1.00001em;font-weight:bold}
+		.st4 {fill:#af5200;stroke:#a54d00;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st5 {marker-end:url(#mrkr4-51);stroke:#a54d00;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st6 {fill:#a54d00;fill-opacity:1;stroke:#a54d00;stroke-opacity:1;stroke-width:0.13368983957219}
+		.st7 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st8 {fill:#803a00;font-family:Segoe UI;font-size:0.916672em}
+		.st9 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st10 {visibility:visible}
+		.st11 {fill:#b43500;fill-opacity:0.098;stroke:#b43500;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.098}
+		.st12 {fill:#b43500;fill-opacity:0;stroke:#b43500;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st13 {fill:#ffffff;stroke:#b43500;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st14 {fill:#b43500;font-family:Segoe UI;font-size:0.916672em;font-weight:bold}
+		.st15 {marker-end:url(#mrkr3-123);stroke:#a54d00;stroke-dasharray:3.5,2.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st16 {marker-end:url(#mrkr3-123);stroke:#a54d00;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st17 {fill:#b43500;font-family:Segoe UI;font-size:0.666664em;font-weight:bold}
+		.st18 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-51" class="st6" v:arrowType="4" v:arrowSize="3" v:setback="14.96" refX="-14.96" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-7.48,-7.48) "/>
+		</marker>
+		<g id="lend3">
+			<path d="M 2 1 L 0 0 L 2 -1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr3-123" class="st6" v:arrowType="3" v:arrowSize="3" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend3" transform="scale(-7.48,-7.48) "/>
+		</marker>
+	</defs>
+	<g v:mID="6" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="group38-1" transform="translate(19.4999,-1347.63)" v:mID="38" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>Actor lifeline</title>
+			<desc>User</desc>
+			<g id="shape39-2" v:mID="39" v:groupContext="shape" transform="translate(19.8425,0)">
+				<title>工作表.39</title>
+				<rect x="0" y="1403.44" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape40-4" v:mID="40" v:groupContext="shape" transform="translate(36.8504,-29.0551)">
+				<title>工作表.40</title>
+				<path d="M3.4 1428.95 L3.4 1411.94 L3.4 1418.74 L0 1418.74 L0 1405.14 L1.7 1403.44 L15.31 1403.44 L17.01 1405.14
+							 L17.01 1418.74 L13.61 1418.74 L13.61 1411.94 L13.61 1428.95 L8.5 1428.95 L8.5 1415.34 L8.5 1428.95 L3.4
+							 1428.95 ZM11.91 1398.33 A3.40157 3.40157 -180 1 0 5.1 1398.33 A3.40157 3.40157 -180 1 0 11.91 1398.33
+							 Z" class="st1"/>
+			</g>
+			<g id="shape41-6" v:mID="41" v:groupContext="shape" transform="translate(30.2362,1316.52)">
+				<title>工作表.41</title>
+			</g>
+			<g id="shape42-8" v:mID="42" v:groupContext="shape" transform="translate(1474.3,1428.95) rotate(90)">
+				<title>工作表.42</title>
+				<path d="M0 1428.95 L1298.91 1428.95" class="st2"/>
+			</g>
+			<g id="shape38-11" v:mID="38" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="45.3543" cy="1416.19" width="90.71" height="25.5118"/>
+				<rect x="0" y="1403.44" width="90.7087" height="25.5118" class="st1"/>
+				<text x="32.74" y="1419.79" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>User</text>			</g>
+		</g>
+		<g id="group43-14" transform="translate(161.232,-1347.63)" v:mID="43" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>Object lifeline</title>
+			<desc>Merchant Client</desc>
+			<g id="shape44-15" v:mID="44" v:groupContext="shape" transform="translate(30.3307,0)">
+				<title>工作表.44</title>
+				<rect x="0" y="1403.44" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape45-17" v:mID="45" v:groupContext="shape" transform="translate(47.3386,-29.0551)">
+				<title>工作表.45</title>
+				<path d="M8.5 1428.95 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape46-19" v:mID="46" v:groupContext="shape" transform="translate(37.2283,1316.52)">
+				<title>工作表.46</title>
+			</g>
+			<g id="shape47-21" v:mID="47" v:groupContext="shape" transform="translate(1484.79,1428.95) rotate(90)">
+				<title>工作表.47</title>
+				<path d="M0 1428.95 L1298.91 1428.95" class="st2"/>
+			</g>
+			<g id="shape43-24" v:mID="43" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="55.8425" cy="1416.19" width="111.69" height="25.5118"/>
+				<rect x="0" y="1403.44" width="111.685" height="25.5118" class="st1"/>
+				<text x="10.76" y="1419.79" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Merchant Client</text>			</g>
+		</g>
+		<g id="group54-27" transform="translate(323.941,-1347.63)" v:mID="54" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>Object lifeline.54</title>
+			<desc>Merchant Server</desc>
+			<g id="shape55-28" v:mID="55" v:groupContext="shape" transform="translate(30.3307,0)">
+				<title>工作表.55</title>
+				<rect x="0" y="1403.44" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape56-30" v:mID="56" v:groupContext="shape" transform="translate(47.3386,-29.0551)">
+				<title>工作表.56</title>
+				<path d="M8.5 1428.95 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape57-32" v:mID="57" v:groupContext="shape" transform="translate(37.2283,1316.52)">
+				<title>工作表.57</title>
+			</g>
+			<g id="shape58-34" v:mID="58" v:groupContext="shape" transform="translate(1484.79,1428.95) rotate(90)">
+				<title>工作表.58</title>
+				<path d="M0 1428.95 L1298.91 1428.95" class="st2"/>
+			</g>
+			<g id="shape54-37" v:mID="54" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="55.8425" cy="1416.19" width="111.69" height="25.5118"/>
+				<rect x="0" y="1403.44" width="111.685" height="25.5118" class="st1"/>
+				<text x="9.24" y="1419.79" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Merchant Server</text>			</g>
+		</g>
+		<g id="shape59-40" v:mID="59" v:groupContext="shape" transform="translate(-1359.84,424.313) rotate(-90)">
+			<title>Activation</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="284.242" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape60-42" v:mID="60" v:groupContext="shape" transform="translate(-1207.62,350.612) rotate(-90)">
+			<title>激活.60</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="210.541" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape65-44" v:mID="65" v:groupContext="shape" transform="translate(-1044.91,293.919) rotate(-90)">
+			<title>激活.65</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="136.84" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape128-46" v:mID="128" v:groupContext="shape" v:layerMember="0" transform="translate(69.1062,-1281.79)">
+			<title>Message.21</title>
+			<desc>1: payment request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="71.8583" cy="1421.86" width="104.36" height="21.2037"/>
+			<path d="M0 1421.86 L136.24 1421.86" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="25.1912" y="1415.26" width="93.3344" height="13.2001" class="st7"/>
+			<text x="25.19" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1: payment request</text>		</g>
+		<g id="shape132-54" v:mID="132" v:groupContext="shape" v:layerMember="0" transform="translate(221.327,-1278.96)">
+			<title>消息.21.132</title>
+			<desc>1.1: Generate QR code request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.1024" cy="1436.04" width="158.94" height="21.2037"/>
+			<path d="M0 1436.04 L146.72 1436.04" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="3.14443" y="1429.44" width="147.916" height="13.2001" class="st9"/>
+			<text x="3.14" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.1: Generate QR code request</text>		</g>
+		<g id="group141-61" transform="translate(486.65,-1347.63)" v:mID="141" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>对象生命线.141</title>
+			<desc>LianLian Server</desc>
+			<g id="shape142-62" v:mID="142" v:groupContext="shape" transform="translate(30.3307,0)">
+				<title>工作表.142</title>
+				<rect x="0" y="1403.44" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape143-64" v:mID="143" v:groupContext="shape" transform="translate(47.3386,-29.0551)">
+				<title>工作表.143</title>
+				<path d="M8.5 1428.95 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape144-66" v:mID="144" v:groupContext="shape" transform="translate(37.2283,1316.52)">
+				<title>工作表.144</title>
+			</g>
+			<g id="shape145-68" v:mID="145" v:groupContext="shape" transform="translate(1484.79,1428.95) rotate(90)">
+				<title>工作表.145</title>
+				<path d="M0 1428.95 L1298.91 1428.95" class="st2"/>
+			</g>
+			<g id="shape141-71" v:mID="141" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="55.8425" cy="1416.19" width="111.69" height="25.5118"/>
+				<rect x="0" y="1403.44" width="111.685" height="25.5118" class="st1"/>
+				<text x="13.04" y="1419.79" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>LianLian Server</text>			</g>
+		</g>
+		<g id="group146-74" transform="translate(628.949,-1347.63)" v:mID="146" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+			</v:userDefs>
+			<title>对象生命线.146</title>
+			<desc>Alipay/WechatPay</desc>
+			<g id="shape147-75" v:mID="147" v:groupContext="shape" transform="translate(40.5354,0)">
+				<title>工作表.147</title>
+				<rect x="0" y="1403.44" width="51.0236" height="25.5118" class="st1"/>
+			</g>
+			<g id="shape148-77" v:mID="148" v:groupContext="shape" transform="translate(57.5433,-29.0551)">
+				<title>工作表.148</title>
+				<path d="M8.5 1428.95 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+			</g>
+			<g id="shape149-79" v:mID="149" v:groupContext="shape" transform="translate(44.0315,1316.52)">
+				<title>工作表.149</title>
+			</g>
+			<g id="shape150-81" v:mID="150" v:groupContext="shape" transform="translate(1495,1428.95) rotate(90)">
+				<title>工作表.150</title>
+				<path d="M0 1428.95 L1298.91 1428.95" class="st2"/>
+			</g>
+			<g id="shape146-84" v:mID="146" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="66.0472" cy="1416.19" width="132.1" height="25.5118"/>
+				<rect x="0" y="1403.44" width="132.094" height="25.5118" class="st1"/>
+				<text x="14.11" y="1419.79" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Alipay/WechatPay</text>			</g>
+		</g>
+		<g id="group151-87" transform="translate(19.4999,-921.791)" v:mID="151" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>可选片段</title>
+			<g id="shape151-88" v:mID="151" v:groupContext="groupContent">
+				<g id="shadow151-89" v:groupContext="shadow" v:shadowOffsetX="2.12399" v:shadowOffsetY="-2.12399" v:shadowType="1"
+						transform="matrix(1,0,0,1,2.12399,2.12399)" class="st10">
+					<rect x="0" y="1012.26" width="737.008" height="416.693" class="st11"/>
+				</g>
+				<rect x="0" y="1012.26" width="737.008" height="416.693" class="st12"/>
+			</g>
+			<g id="shape152-92" v:mID="152" v:groupContext="shape" transform="translate(0,-395.489)">
+				<title>工作表.152</title>
+				<desc>QR code payment</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#b43500)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#b43500)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#feffff)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#b43500)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="51.5094" cy="1418.35" width="103.02" height="21.2037"/>
+				<path d="M0 1428.95 L95.93 1428.95 L103.02 1421.86 L103.02 1407.75 L0 1407.75 L0 1428.95 Z" class="st13"/>
+				<text x="4" y="1421.65" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>QR code payment</text>			</g>
+		</g>
+		<g id="shape155-95" v:mID="155" v:groupContext="shape" v:layerMember="0" transform="translate(376.949,-1271.87)">
+			<title>自关联消息.23</title>
+			<desc>1.2: Build order info</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="106.13" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-40.4668" y="1439.36" width="95.107" height="13.2001" class="st7"/>
+			<text x="-40.47" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.2: Build order info</text>		</g>
+		<g id="shape156-102" v:mID="156" v:groupContext="shape" transform="translate(-882.205,279.746) rotate(-90)">
+			<title>激活.156</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="70.8661" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape157-104" v:mID="157" v:groupContext="shape" v:layerMember="0" transform="translate(384.035,-1227.54)">
+			<title>消息.21.157</title>
+			<desc>1.3: Order request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2283" cy="1436.04" width="98.28" height="21.2037"/>
+			<path d="M0 1435.65 L150.98 1436.39" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="35.6013" y="1429.44" width="87.2542" height="13.2001" class="st7"/>
+			<text x="35.6" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.3: Order request</text>		</g>
+		<g id="shape158-111" v:mID="158" v:groupContext="shape" v:layerMember="0" transform="translate(539.657,-1203.06)">
+			<title>自关联消息.23.158</title>
+			<desc>1.4: Verify and internal logic</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="145.85" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-60.3295" y="1439.36" width="134.832" height="13.2001" class="st7"/>
+			<text x="-60.33" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.4: Verify and internal logic</text>		</g>
+		<g id="shape159-118" v:mID="159" v:groupContext="shape" v:layerMember="0" transform="translate(546.744,-1142.12)">
+			<title>返回消息.22.159</title>
+			<desc>1.5: Return QR code info</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-83.4803" cy="1421.86" width="129.45" height="21.2037"/>
+			<path d="M0 1421.86 L-166.96 1421.86" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="-142.692" y="1415.26" width="118.423" height="13.2001" class="st7"/>
+			<text x="-142.69" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.5: Return QR code info</text>		</g>
+		<g id="shape164-126" v:mID="164" v:groupContext="shape" v:layerMember="0" transform="translate(375.531,-1129.64)">
+			<title>返回消息.22.164</title>
+			<desc>1.6: Return QR code info</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-77.1024" cy="1421.86" width="129.45" height="21.2037"/>
+			<path d="M0 1422.36 L-154.2 1421.36" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="-136.314" y="1415.26" width="118.423" height="13.2001" class="st9"/>
+			<text x="-136.31" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.6: Return QR code info</text>		</g>
+		<g id="shape165-133" v:mID="165" v:groupContext="shape" v:layerMember="0" transform="translate(214.24,-1127.3)">
+			<title>自关联消息.23.165</title>
+			<desc>1.7: Generate QR code and display</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1447.37" width="177.68" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1465.8 L14.57 1465.8" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-76.244" y="1440.77" width="166.661" height="13.2001" class="st7"/>
+			<text x="-76.24" y="1450.67" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.7: Generate QR code and display</text>		</g>
+		<g id="shape166-140" v:mID="166" v:groupContext="shape" transform="translate(-729.701,435.652) rotate(-90)">
+			<title>激活.166</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="70.8661" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape167-142" v:mID="167" v:groupContext="shape" v:layerMember="0" transform="translate(64.8542,-1057.08)">
+			<title>消息.21.167</title>
+			<desc>1.8: Scan QR code with Alipay/WechatPay application</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="312.945" cy="1421.86" width="269.11" height="21.2037"/>
+			<path d="M0 1421.86 L618.41 1421.86" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="183.903" y="1415.26" width="258.084" height="13.2001" class="st7"/>
+			<text x="183.9" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.8: Scan QR code with Alipay/WechatPay application</text>		</g>
+		<g id="shape168-149" v:mID="168" v:groupContext="shape" v:layerMember="0" transform="translate(692.161,-1047.16)">
+			<title>自关联消息.23.168</title>
+			<desc>1.9: Handle payment</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="110.77" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-42.787" y="1439.36" width="99.7473" height="13.2001" class="st7"/>
+			<text x="-42.79" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.9: Handle payment</text>		</g>
+		<g id="shape169-156" v:mID="169" v:groupContext="shape" transform="translate(-882.205,495.179) rotate(-90)">
+			<title>激活.169</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="59.5276" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape171-158" v:mID="171" v:groupContext="shape" v:layerMember="0" transform="translate(690.744,-986.211)">
+			<title>异步消息</title>
+			<desc>2: Asynchronous notification</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-72" cy="1421.86" width="148.72" height="21.2037"/>
+			<path d="M0 1421.86 L-144 1421.86" class="st16"/>
+			<rect v:rectContext="textBkgnd" x="-140.85" y="1415.26" width="137.701" height="13.2001" class="st7"/>
+			<text x="-140.85" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2: Asynchronous notification</text>		</g>
+		<g id="shape172-165" v:mID="172" v:groupContext="shape" transform="translate(-1044.91,478.171) rotate(-90)">
+			<title>激活.172</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="19.8425" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape173-167" v:mID="173" v:groupContext="shape" v:layerMember="0" transform="translate(542.492,-977.707)">
+			<title>异步消息.173</title>
+			<desc>2.1: Asynchronous notification</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-79.2283" cy="1436.04" width="157.04" height="21.2037"/>
+			<path d="M0 1436.04 L-158.46 1436.04" class="st16"/>
+			<rect v:rectContext="textBkgnd" x="-152.236" y="1429.44" width="146.015" height="13.2001" class="st7"/>
+			<text x="-152.24" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2.1: Asynchronous notification</text>		</g>
+		<g id="shape174-174" v:mID="174" v:groupContext="shape" v:layerMember="0" transform="translate(379.783,-943.691)">
+			<title>返回消息.22</title>
+			<desc>2.2: Response</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.3543" cy="1421.86" width="77.22" height="21.2037"/>
+			<path d="M0 1421.86 L162.71 1421.86" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="48.2548" y="1415.26" width="66.1992" height="13.2001" class="st9"/>
+			<text x="48.25" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2.2: Response</text>		</g>
+		<g id="shape175-181" v:mID="175" v:groupContext="shape" v:layerMember="0" transform="translate(694.996,-997.938)">
+			<title>返回消息.22.175</title>
+			<desc>1.10: Display payment result</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-312.945" cy="1421.86" width="147.14" height="21.2037"/>
+			<path d="M0 1422.25 L-625.89 1421.47" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="-381.005" y="1415.26" width="136.121" height="13.2001" class="st7"/>
+			<text x="-381.01" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1.10: Display payment result</text>		</g>
+		<g id="group176-188" transform="translate(19.4999,-473.917)" v:mID="176" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>可选片段.176</title>
+			<g id="shape176-189" v:mID="176" v:groupContext="groupContent">
+				<g id="shadow176-190" v:groupContext="shadow" v:shadowOffsetX="2.12399" v:shadowOffsetY="-2.12399" v:shadowType="1"
+						transform="matrix(1,0,0,1,2.12399,2.12399)" class="st10">
+					<rect x="0" y="1003.75" width="737.008" height="425.197" class="st11"/>
+				</g>
+				<rect x="0" y="1003.75" width="737.008" height="425.197" class="st12"/>
+			</g>
+			<g id="shape177-193" v:mID="177" v:groupContext="shape" transform="translate(0,-403.993)">
+				<title>工作表.177</title>
+				<desc>Wechat Offical Account Payment</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#b43500)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#b43500)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#feffff)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#b43500)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="90.8202" cy="1418.35" width="181.65" height="21.2037"/>
+				<path d="M0 1428.95 L174.55 1428.95 L181.64 1421.86 L181.64 1407.75 L0 1407.75 L0 1428.95 Z" class="st13"/>
+				<text x="4" y="1421.65" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>Wechat Offical Account Payment</text>			</g>
+		</g>
+		<g id="shape179-196" v:mID="179" v:groupContext="shape" transform="translate(-1359.84,841.646) rotate(-90)">
+			<title>激活.179</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="275.601" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape180-198" v:mID="180" v:groupContext="shape" transform="translate(-1207.62,764.47) rotate(-90)">
+			<title>激活.180</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="178.583" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape181-200" v:mID="181" v:groupContext="shape" v:layerMember="0" transform="translate(64.8542,-850.148)">
+			<title>消息.21.181</title>
+			<desc>3: Payment request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="73.9843" cy="1436.04" width="104.05" height="21.2037"/>
+			<path d="M0 1436.04 L140.49 1436.04" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="27.4703" y="1429.44" width="93.0281" height="13.2001" class="st7"/>
+			<text x="27.47" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3: Payment request</text>		</g>
+		<g id="shape182-207" v:mID="182" v:groupContext="shape" transform="translate(-1044.91,730.455) rotate(-90)">
+			<title>激活.182</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="127.559" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape183-209" v:mID="183" v:groupContext="shape" v:layerMember="0" transform="translate(221.327,-818.967)">
+			<title>消息.21.183</title>
+			<desc>3.1: Generate order request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.1024" cy="1421.86" width="143.62" height="21.2037"/>
+			<path d="M0 1421.86 L146.72 1421.86" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="10.8037" y="1415.26" width="132.598" height="13.2001" class="st9"/>
+			<text x="10.8" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.1: Generate order request</text>		</g>
+		<g id="shape184-216" v:mID="184" v:groupContext="shape" v:layerMember="0" transform="translate(376.949,-826.053)">
+			<title>自关联消息.23.184</title>
+			<desc>3.2: Build order info</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="106.13" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-40.4668" y="1439.36" width="95.107" height="13.2001" class="st7"/>
+			<text x="-40.47" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.2: Build order info</text>		</g>
+		<g id="shape185-223" v:mID="185" v:groupContext="shape" transform="translate(-882.205,710.612) rotate(-90)">
+			<title>激活.185</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="70.8661" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape186-225" v:mID="186" v:groupContext="shape" v:layerMember="0" transform="translate(379.783,-765.109)">
+			<title>消息.21.186</title>
+			<desc>3.3: Order request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.3543" cy="1421.86" width="98.28" height="21.2037"/>
+			<path d="M0 1421.86 L155.23 1421.86" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="37.7273" y="1415.26" width="87.2542" height="13.2001" class="st7"/>
+			<text x="37.73" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.3: Order request</text>		</g>
+		<g id="shape188-232" v:mID="188" v:groupContext="shape" v:layerMember="0" transform="translate(539.657,-772.195)">
+			<title>自关联消息.23.188</title>
+			<desc>3.4: Verify and internal logic</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="145.85" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-60.3295" y="1439.36" width="134.832" height="13.2001" class="st7"/>
+			<text x="-60.33" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.4: Verify and internal logic</text>		</g>
+		<g id="shape189-239" v:mID="189" v:groupContext="shape" v:layerMember="0" transform="translate(542.492,-711.25)">
+			<title>返回消息.22.189</title>
+			<desc>3.5: Return payLoad</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-81.3543" cy="1421.86" width="107.1" height="21.2037"/>
+			<path d="M0 1421.86 L-162.71 1421.86" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="-129.391" y="1415.26" width="96.0738" height="13.2001" class="st7"/>
+			<text x="-129.39" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.5: Return payLoad</text>		</g>
+		<g id="shape191-246" v:mID="191" v:groupContext="shape" v:layerMember="0" transform="translate(375.531,-691.408)">
+			<title>返回消息.22.191</title>
+			<desc>3.6: Return payLoad</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-79.2283" cy="1421.86" width="107.1" height="21.2037"/>
+			<path d="M0 1421.86 L-158.46 1421.86" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="-127.265" y="1415.26" width="96.0738" height="13.2001" class="st7"/>
+			<text x="-127.27" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.6: Return payLoad</text>		</g>
+		<g id="shape192-253" v:mID="192" v:groupContext="shape" v:layerMember="0" transform="translate(217.075,-674.4)">
+			<title>消息.21.192</title>
+			<desc>3.7: Use payLoad to make payment request via Wechat Offical A...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="238.961" cy="1421.86" width="418.03" height="21.2037"/>
+			<path d="M0 1421.86 L470.44 1421.86" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="35.4585" y="1415.26" width="407.004" height="13.2001" class="st7"/>
+			<text x="35.46" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.7: Use payLoad to make payment request via Wechat Offical Account Payment API</text>		</g>
+		<g id="shape193-260" v:mID="193" v:groupContext="shape" transform="translate(-729.358,884.166) rotate(-90)">
+			<title>激活.193</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="144.567" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape194-262" v:mID="194" v:groupContext="shape" v:layerMember="0" transform="translate(692.504,-672.343)">
+			<title>自关联消息.23.194</title>
+			<desc>3.8: Display payment page</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="138.65" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-56.7252" y="1439.36" width="127.624" height="13.2001" class="st7"/>
+			<text x="-56.73" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.8: Display payment page</text>		</g>
+		<g id="shape195-269" v:mID="195" v:groupContext="shape" v:layerMember="0" transform="translate(69.1062,-621.639)">
+			<title>消息.21.195</title>
+			<desc>3.9: Input payment password</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="310.99" cy="1421.86" width="150.92" height="21.2037"/>
+			<path d="M0 1422.96 L614.5 1420.79" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="241.04" y="1415.26" width="139.902" height="13.2001" class="st9"/>
+			<text x="241.04" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.9: Input payment password</text>		</g>
+		<g id="shape196-276" v:mID="196" v:groupContext="shape" v:layerMember="0" transform="translate(692.504,-618.484)">
+			<title>自关联消息.23.196</title>
+			<desc>3.10: Processs payment</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1444.54" width="123.44" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1460.13 L14.57 1460.13" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-49.1222" y="1437.94" width="112.418" height="13.2001" class="st7"/>
+			<text x="-49.12" y="1447.84" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3.10: Processs payment</text>		</g>
+		<g id="shape197-283" v:mID="197" v:groupContext="shape" transform="translate(-880.788,918.286) rotate(-90)">
+			<title>激活.197</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="34.1202" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape198-285" v:mID="198" v:groupContext="shape" v:layerMember="0" transform="translate(691.087,-553.287)">
+			<title>异步消息.198</title>
+			<desc>4: Asynchronous notification</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-71.4629" cy="1436.04" width="148.72" height="21.2037"/>
+			<path d="M0 1434.62 L-142.93 1437.45" class="st16"/>
+			<rect v:rectContext="textBkgnd" x="-140.313" y="1429.44" width="137.701" height="13.2001" class="st9"/>
+			<text x="-140.31" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4: Asynchronous notification</text>		</g>
+		<g id="shape199-292" v:mID="199" v:groupContext="shape" transform="translate(-1043.78,930.124) rotate(-90)">
+			<title>激活.199</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="28.1973" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape200-294" v:mID="200" v:groupContext="shape" v:layerMember="0" transform="translate(539.657,-534.486)">
+			<title>异步消息.200</title>
+			<desc>4.1: Asynchronous notification</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-77.2441" cy="1436.04" width="157.04" height="21.2037"/>
+			<path d="M0 1435.66 L-154.49 1436.41" class="st16"/>
+			<rect v:rectContext="textBkgnd" x="-150.252" y="1429.44" width="146.015" height="13.2001" class="st9"/>
+			<text x="-150.25" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4.1: Asynchronous notification</text>		</g>
+		<g id="group201-301" transform="translate(19.4999,-20.374)" v:mID="201" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>可选片段.201</title>
+			<g id="shape201-302" v:mID="201" v:groupContext="groupContent">
+				<g id="shadow201-303" v:groupContext="shadow" v:shadowOffsetX="2.12399" v:shadowOffsetY="-2.12399" v:shadowType="1"
+						transform="matrix(1,0,0,1,2.12399,2.12399)" class="st10">
+					<rect x="0" y="998.889" width="737.008" height="430.061" class="st11"/>
+				</g>
+				<rect x="0" y="998.889" width="737.008" height="430.061" class="st12"/>
+			</g>
+			<g id="shape202-306" v:mID="202" v:groupContext="shape" transform="translate(0,-412.457)">
+				<title>工作表.202</title>
+				<desc>Wechat APP payment</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#b43500)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#b43500)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#feffff)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#b43500)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="45.8493" cy="1420.15" width="91.7" height="17.6036"/>
+				<path d="M0 1428.95 L84.61 1428.95 L91.7 1421.86 L91.7 1411.35 L0 1411.35 L0 1428.95 Z" class="st13"/>
+				<text x="4" y="1422.55" class="st17" v:langID="2052"><v:paragraph/><v:tabList/>Wechat APP payment</text>			</g>
+		</g>
+		<g id="shape203-309" v:mID="203" v:groupContext="shape" transform="translate(-1359.69,1272.51) rotate(-90)">
+			<title>激活.203</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="253.701" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape204-311" v:mID="204" v:groupContext="shape" transform="translate(-1206.77,1227.16) rotate(-90)">
+			<title>激活.204</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="191.339" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape207-313" v:mID="207" v:groupContext="shape" v:layerMember="0" transform="translate(69.2554,-400.217)">
+			<title>消息.21.207</title>
+			<desc>5: payment request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="72.2089" cy="1436.04" width="104.36" height="21.2037"/>
+			<path d="M0 1436.04 L136.94 1436.04" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="25.5418" y="1429.44" width="93.3344" height="13.2001" class="st7"/>
+			<text x="25.54" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5: payment request</text>		</g>
+		<g id="shape208-320" v:mID="208" v:groupContext="shape" v:layerMember="0" transform="translate(385.169,-503.305)">
+			<title>返回消息.22.208</title>
+			<desc>4.2: Response</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.2441" cy="1421.86" width="77.22" height="21.2037"/>
+			<path d="M0 1422.24 L154.49 1421.49" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="44.1446" y="1415.26" width="66.1992" height="13.2001" class="st7"/>
+			<text x="44.14" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4.2: Response</text>		</g>
+		<g id="shape209-327" v:mID="209" v:groupContext="shape" transform="translate(-1044.15,1181.8) rotate(-90)">
+			<title>激活.209</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="128.976" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape210-329" v:mID="210" v:groupContext="shape" v:layerMember="0" transform="translate(222.177,-369.035)">
+			<title>消息.21.210</title>
+			<desc>5.1: Generate order request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.0576" cy="1421.86" width="143.62" height="21.2037"/>
+			<path d="M0 1421.86 L146.64 1421.86" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="10.7589" y="1415.26" width="132.598" height="13.2001" class="st9"/>
+			<text x="10.76" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.1: Generate order request</text>		</g>
+		<g id="shape211-336" v:mID="211" v:groupContext="shape" transform="translate(-882.205,1173.3) rotate(-90)">
+			<title>激活.211</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="73.7008" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape212-338" v:mID="212" v:groupContext="shape" v:layerMember="0" transform="translate(383.379,-322.264)">
+			<title>消息.21.212</title>
+			<desc>5.3: Order request</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.4306" cy="1421.86" width="98.28" height="21.2037"/>
+			<path d="M0 1421.86 L147.38 1421.86" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="33.8036" y="1415.26" width="87.2542" height="13.2001" class="st7"/>
+			<text x="33.8" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.3: Order request</text>		</g>
+		<g id="shape213-345" v:mID="213" v:groupContext="shape" v:layerMember="0" transform="translate(539.657,-312.343)">
+			<title>自关联消息.23.213</title>
+			<desc>5.4: Internal logic</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="93.95" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-34.3787" y="1439.36" width="82.9308" height="13.2001" class="st9"/>
+			<text x="-34.38" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.4: Internal logic</text>		</g>
+		<g id="shape214-352" v:mID="214" v:groupContext="shape" v:layerMember="0" transform="translate(538.24,-264.862)">
+			<title>返回消息.22.214</title>
+			<desc>5.5: Return payLoad</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-77.4306" cy="1436.04" width="107.1" height="21.2037"/>
+			<path d="M0 1435.33 L-154.86 1436.74" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="-125.467" y="1429.44" width="96.0738" height="13.2001" class="st9"/>
+			<text x="-125.47" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.5: Return payLoad</text>		</g>
+		<g id="shape215-359" v:mID="215" v:groupContext="shape" v:layerMember="0" transform="translate(377.71,-376.122)">
+			<title>自关联消息.23.215</title>
+			<desc>5.2: Build order info</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="106.13" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-40.4668" y="1439.36" width="95.107" height="13.2001" class="st7"/>
+			<text x="-40.47" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.2: Build order info</text>		</g>
+		<g id="shape216-366" v:mID="216" v:groupContext="shape" transform="translate(-730.552,1323.54) rotate(-90)">
+			<title>激活.216</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="124.724" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape217-368" v:mID="217" v:groupContext="shape" v:layerMember="0" transform="translate(213.673,-237.933)">
+			<title>消息.21.217</title>
+			<desc>5.7: Submit payLoad info to Wechat APP Payment SDK or LLAggre...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="240.236" cy="1436.04" width="415.15" height="21.2037"/>
+			<path d="M0 1435.33 L472.99 1436.72" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="39.6799" y="1429.44" width="401.112" height="13.2001" class="st9"/>
+			<text x="39.68" y="1439.34" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.7: Submit payLoad info to Wechat APP Payment SDK or LLAggregate Mobile SDK  </text>		</g>
+		<g id="shape218-375" v:mID="218" v:groupContext="shape" v:layerMember="0" transform="translate(376.292,-242.894)">
+			<title>返回消息.22.218</title>
+			<desc>5.6: Return payLoad</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-77.0576" cy="1421.86" width="107.1" height="21.2037"/>
+			<path d="M0 1423.28 L-154.12 1420.45" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="-125.094" y="1415.26" width="96.0738" height="13.2001" class="st7"/>
+			<text x="-125.09" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.6: Return payLoad</text>		</g>
+		<g id="shape219-382" v:mID="219" v:groupContext="shape" v:layerMember="0" transform="translate(691.311,-213.13)">
+			<title>自关联消息.23.219</title>
+			<desc>5.8: Display payment pages</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1445.96" width="146.33" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1462.96 L14.57 1462.96" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-59.0591" y="1439.36" width="132.291" height="13.2001" class="st7"/>
+			<text x="-59.06" y="1449.26" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.8: Display payment pages  </text>		</g>
+		<g id="shape220-389" v:mID="220" v:groupContext="shape" v:layerMember="0" transform="translate(69.2554,-150.768)">
+			<title>消息.21.220</title>
+			<desc>5.9: Input payment password</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="310.319" cy="1421.86" width="150.92" height="21.2037"/>
+			<path d="M0 1423.28 L613.16 1420.48" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="240.368" y="1415.26" width="139.902" height="13.2001" class="st7"/>
+			<text x="240.37" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.9: Input payment password</text>		</g>
+		<g id="shape221-396" v:mID="221" v:groupContext="shape" v:layerMember="0" transform="translate(691.311,-145.098)">
+			<title>自关联消息.23.221</title>
+			<desc>5.10: Handle payment</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="1443.12" width="116.7" height="21.2037"/>
+			<path d="M7.09 1428.95 L25.09 1428.95 L25.09 1457.3 L14.57 1457.3" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-45.7517" y="1436.52" width="105.677" height="13.2001" class="st7"/>
+			<text x="-45.75" y="1446.42" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5.10: Handle payment</text>		</g>
+		<g id="shape222-403" v:mID="222" v:groupContext="shape" transform="translate(-883.622,1363.22) rotate(-90)">
+			<title>激活.222</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="39.685" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape223-405" v:mID="223" v:groupContext="shape" v:layerMember="0" transform="translate(689.894,-98.3268)">
+			<title>异步消息.223</title>
+			<desc>6: Asynchronous Notification</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-72.2835" cy="1421.86" width="150.73" height="21.2037"/>
+			<path d="M0 1421.86 L-144.57 1421.86" class="st16"/>
+			<rect v:rectContext="textBkgnd" x="-142.135" y="1415.26" width="139.704" height="13.2001" class="st7"/>
+			<text x="-142.14" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6: Asynchronous Notification</text>		</g>
+		<g id="shape224-412" v:mID="224" v:groupContext="shape" transform="translate(-1045.2,1371.72) rotate(-90)">
+			<title>激活.224</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<rect x="0" y="1420.45" width="36.8504" height="8.50394" class="st4"/>
+		</g>
+		<g id="shape225-414" v:mID="225" v:groupContext="shape" v:layerMember="0" transform="translate(536.823,-86.9882)">
+			<title>异步消息.225</title>
+			<desc>6.1: Asynchronous Notification</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-76.5354" cy="1421.86" width="159.04" height="21.2037"/>
+			<path d="M0 1421.86 L-153.07 1421.86" class="st16"/>
+			<rect v:rectContext="textBkgnd" x="-150.545" y="1415.26" width="148.019" height="13.2001" class="st7"/>
+			<text x="-150.54" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6.1: Asynchronous Notification</text>		</g>
+		<g id="shape226-421" v:mID="226" v:groupContext="shape" v:layerMember="0" transform="translate(383.752,-69.9803)">
+			<title>返回消息.22.226</title>
+			<desc>6.2: Response</desc>
+			<v:userDefs>
+				<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76.5354" cy="1421.86" width="77.22" height="21.2037"/>
+			<path d="M0 1421.86 L153.07 1421.86" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="43.4359" y="1415.26" width="66.1992" height="13.2001" class="st7"/>
+			<text x="43.44" y="1425.16" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6.2: Response</text>		</g>
+	</g>
+</svg>

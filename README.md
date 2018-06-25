@@ -2,7 +2,12 @@
 
 Welcome to LianLian.
 
-This Book is created for Exchange Payment as well as its relevant APIs. Explanations for the interactions between you and LianLian while using Exchange Payment such as integration, data transmission logic, verification flow etc can also be found here.
+Get started with following products:
+
+* [Exchange Payment](docs/exchange-payment-overview.md), enables the capability of Chinese customers to make payment in CNY for goods which is sold in [other currencies](docs/supported-currencies.md).
+
+* [Aggregate Payment](docs/aggregate-overview.md), allows you to accept payments with multiple payment methods.
+
 
 ***
 

@@ -18,6 +18,18 @@
 
 * [Payment Result Query API](docs/exchange-payment-result-query.md)
 
+## Aggregate Payment
+
+* [Overview](docs/aggregate-overview.md)
+
+* [Redirect API](docs/aggregate-web-redirect.md)
+
+* [Direct API](docs/aggregate-direct-api.md)
+
+* [Asynchronous Notification](docs/aggregate-asyn-notification.md)
+
+* [Payment Result Query API](docs/aggregate-payment-result-query.md)
+
 ## Relevant API
 
 * [Card Bind](docs/card-bind-overview.md)
