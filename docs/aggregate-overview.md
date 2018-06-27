@@ -17,12 +17,12 @@ All above payment methods are available by redirecting your users to pages hoste
 
 Below is a typical UML sequence diagram for the interactions with Aggregate Payment Redirect API.
 
-![](../assests/aggregate-web-flow.svg)
+![](../assests/aggregate-web-flow.png)
 
 ### Aggregate Payment Direct API
 
 Below is a typical UML sequence diagram for the interactions with Aggregate Payment Direct API.
 
-![](../assests/aggregate-direct-api-flow.svg)
+![](../assests/aggregate-direct-api.png)
 
 LianLian will proceed with the payment request and communicate with our gateways to obtain the payment result once the payment request is executed. Whenever its status confirmed as successful, LianLian sends out the [Aggregate payment asynchronous notification](aggregate-asyn-notification.md) immediately to your server. You can then verify the HTTP request and then proceed with your delivery logic.
