@@ -32,7 +32,7 @@ https://fe-pay.lianlianpay.com/exchange/v1/bankcardpayapply
 |info_order|Optional|String(255)|```info_order``` will be sent back in synchronous or asynchronous notification for parameters transmission|
 |notify_url|Required|String(128)|Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify|
 |valid_order|Optional|Int|The valid period of ```no_order```, in minute. The status of corresponding transaction will be set to "Closed" once its ```valid_order``` run out. Default: 10080 (7 days). |
-|risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment_risk_item.md)| 
+|risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment-risk-item.md)| 
 |pay_type|Required|String| M, Easy payment - Debit card <br> N, Easy payment - Credit card <br> D, Authenticate Payment|
 |currency_order|Required|String(3)|The currency used in the transaction. Refer to [supported currencies](supported-currencies.md)|
 |money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in the currency of ```currency_order```|
