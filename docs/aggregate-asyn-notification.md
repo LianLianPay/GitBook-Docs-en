@@ -20,7 +20,7 @@ This asynchronous notification is sent out to the ```notify_url``` of the origin
 |result_pay|Required|String| Payment result. E.g. SUCCESS|
 |settle_date|Optional|String(8)| Format YYYYMMDD. Returns when payment is successful|
 |info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|
-|pay_type|Optional|String| The payment method used in this transaction. <br> 0, balance payment <br> 1, online banking payment (debit card) <br> 8, online banking payment (credit card) <br> 9, business online banking payment <br> 2, express payment (debit card) <br> 3, express payment (credit card)<br> D, verified payment <br> I, WeChat Payment <br> L, Alipay Payment| 
+|pay_type|Optional|String| The payment method used in this transaction. <br> 0, balance payment <br> 1, online banking payment (debit card) <br> 8, online banking payment (credit card) <br> 9, business online banking payment <br> 2, express payment (debit card) <br> 3, express payment (credit card)<br> D, verified payment <br> I, WeChat Payment <br> L, Alipay Payment<br> M,easypay payment (regular payments) <br> F,easypay payment( authorization)| 
 |bank_code|Optional|String| Short codes of banks |
 |no_agree|Optional|String| A token which represents the key payment information, refer to [Binding Card](easypay.md) for more details |
 
