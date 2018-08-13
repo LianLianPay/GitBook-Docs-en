@@ -21,7 +21,7 @@ https://queryapi.lianlianpay.com/bankcardbindlist.htm
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
 |platform|Optional|String(32)|Used for sharing user information between several ```oid_partner```, do NOT use it if you are not sure, or ask help from LianLian Supports|
-|pay_type|Optional|String| 2, Express Payment (Debit card) <br> 3, Express Payment (Credit card) <br> D, Verified Payment <br> By default the value is 2 |
+|pay_type|Optional|String| 2, Express Payment (Debit card) <br> 3, Express Payment (Credit card) <br> D, Verified Payment <br>  M, regular payments <br> F, authorization, used for credit card only. An error throws out if the used card is not a credit card<br>By default the value is 2 |
 |no_agree|Optional|String| Permanent token. Only the information which belongs to ```no_agree``` would be returned if it is present |
 |card_no|Optional|String| Card number. Only the information which belongs to ```card_no``` would be returned if it is present |
 |offset|Required|String(8)| The offset of query result. Generally 0 is enough. Possible value: 0, 1, 2, 3, ... |
