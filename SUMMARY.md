@@ -6,6 +6,18 @@
 
 * [Preparation](docs/prepartion.md)
 
+## Easy Payment
+
+* [Overview](docs/easypay.md)
+
+* [WEB Payment API](docs/easypay_web_redirect.md)
+
+* [H5 Payment API](docs/easypay_h5_redirect.md)
+
+* [Asynchronous Notification](docs/aggregate-asyn-notification.md)
+
+* [Payment Result Query API](docs/easypay_payment_result_query.md)
+
 ## Exchange Payment
 
 * [Overview](docs/exchange-payment-overview.md)
