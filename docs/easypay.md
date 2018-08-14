@@ -31,11 +31,11 @@ There are 2 kinds of integrations to implement Easy Payment into your applicatio
 
 * **Standard**, redirect your users to LianLian pages directly, you do NOT touch payment sensitive data.
 
-![](../textures/Easypay_web_standard_flow.svg)
+![](../assests/Easypay_web_standard_flow.svg)
 
 * **Payment information preset**, payment sensitive data like ```card_no```, ```acct_name```, ```id_no``` is collected in your own page and submitted to LianLian while performing payment requests, your users are also redirected to pages hosted by LianLian.
 
-![](../textures/Easypay_web_preset_flow.svg)
+![](../assests/Easypay_web_preset_flow.svg)
 
 Both [Easy Payment Web Redirect API](easypay_web_redirect.md) and [Easy Payment H5 Redirect API](easypay_h5_redirect.md) support the 2 flows.
 

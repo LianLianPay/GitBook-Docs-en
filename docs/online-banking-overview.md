@@ -7,7 +7,7 @@ Online banking payment is divided into ** personal online banking payment ** and
 
 ## payment process
 
-![](./online-banking-flow.svg)
+![](./assests/online-banking-flow.svg)
 
 * Generate order information like ```no_order```、```dt_order```、```money_order```after the user choosing which products to pay.
 * The user select to use which bank on Lianlian page and then they'll be redirected to corresponding online banking page to pay.
