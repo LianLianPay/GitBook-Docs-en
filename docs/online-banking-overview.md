@@ -19,7 +19,7 @@ Online banking payment is divided into ** personal online banking payment ** and
 ## Implement
 
 
-1. [Request payment](online-banking-redirect-api)  Redirect your user to Lianlian payment page.
+1. [Request payment](online-banking-redirect-api.md)  Redirect your user to Lianlian payment page.
    
 2. [Synchronous Notification(optional)](sync-notification.md)  Lianlian will send synchronous notification to the ```url_return``` after the payment is confirmed as successful.
 
