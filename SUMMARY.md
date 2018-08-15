@@ -14,7 +14,7 @@
 
 * [H5 Payment API](docs/easypay_h5_redirect.md)
 
-* [Asynchronous Notification](docs/aggregate-asyn-notification.md)
+* [Asynchronous Notification](docs/easypay-asyn-notification.md)
 
 * [Payment Result Query API](docs/easypay_payment_result_query.md)
 
@@ -26,7 +26,7 @@
 
 * [Synchronous Notification](docs/sync-notification.md)
 
-* [Asynchronous Notification](docs/aggregate-asyn-notification.md)
+* [Asynchronous Notification](docs/online-banking-notification.md)
 
 * [Payment Result Query API](docs/aggregate-payment-result-query.md)
 
