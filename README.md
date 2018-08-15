@@ -4,6 +4,10 @@ Welcome to LianLian.
 
 Get started with following products:
 
+* [Easypay Payment](docs/easypay.md), a pure card payment solution for domestic cards in China mainland.
+
+* [Online banking Payment](docs/online-banking-overview.md), allows you to accept online banking payment.
+
 * [Exchange Payment](docs/exchange-payment-overview.md), enables the capability of Chinese customers to make payment in CNY for goods which is sold in [other currencies](docs/supported-currencies.md).
 
 * [Aggregate Payment](docs/aggregate-overview.md), allows you to accept payments with multiple payment methods.
