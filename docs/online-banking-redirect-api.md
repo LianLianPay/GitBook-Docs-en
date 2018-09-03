@@ -19,8 +19,30 @@ https://payment.lianlianpay.com/payment/bankgateway.htm
 ```
 
 ###### Request Parameters
+|Name|Required|Type|Description|
+|:---|:---|:---|:---|
+|version_1.0|Required|String(6)|Fixed value, 1.0|
+|charset_name|Required|String(18)|Encoding format of merchat website,support UTF-8(default),GBK,GB2312 and GB18030.|
+|oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
+|user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
+|timestamp|Required|String(14)|The time when request is initialized. Format: YYYYMMDDHHMMSS, E.g. 20170801225714. The time difference between your server and LianLian server(UTC +8) should be no more than 30 mins|
+|sign_type|Required|String(3)|RSA |
+|sign|Required|String|Signature value|
+|busi_partner|Required|String(6)|Fixed value. Virtual products, 101001; Physical products, 109001|
+|no_order|Required|String(32)|Merchant order No.|
+|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|name_goods|Required|String(40)|Product name. E.g. Pen|
+|info_order|Optional|String(255)|```info_order``` will be sent back in asynchronous notification for parameters transmission|
+|money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|
+|notify_url|Required|String(128)|Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify|
+|url_return|Optional|String(128)|Online url, your customer will be redirected to ```url_return``` once they finished their payment|
+|userreq_ip|Optional|String(32)|The IP address of your customer, used for anti-fraud purpose. Replace "." with "_", E.g. 122_11_37_211|
+|url_order|Optional|String(255)|Online url of products|
+|valid_order|Optional|Int|The valid period of ```no_order```, in minute. The status of corresponding transaction will be set to "Closed" once its ```valid_order``` run out. Default: 10080 (7 days). |
+|bank_code|Optional|String(18)|The bank short code of used card.When it's NOT null,the user will be redirected to corresponding online banking page from merchant page.|
+|risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment_risk_item.md)| 
+|pay_type|Optional|String| The payment method used in this transaction. <br> 1, online banking payment (debit card) <br> 8, online banking payment (credit card) <br> 9, business online banking payment <br> |
 
-<param type='docs' category='request' list='version_1.0, charset_name, oid_partner, user_id, timestamp, sign_type, sign, busi_partner, no_order, dt_order, name_goods, info_order, money_order, notify_url, url_return, userreq_ip, url_order, valid_order, bank_code, pay_type, sharing_data, risk_item'></param>
 
 ###### Sample Request
 
