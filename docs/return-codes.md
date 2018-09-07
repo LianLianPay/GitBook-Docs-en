@@ -127,7 +127,7 @@
 |9902|接口调用异常|An exception is thrown when the interface is invoked|
 |9903|请求无效，请稍后重试|Invalid request, please try again later or contact our support|
 |9907|银行编码与卡不一致|The ```bank_code``` is inconsistent with the ```card_no```|
-|9901|风险等级过高|Payment is suspended due to high risk level|
+|9910|风险等级过高|Payment is suspended due to high risk level|
 |9911|金额超过指定额度|The ```money_order``` has exceeded the specified amount|
 |9912|该卡暂不支持|The used card is unsupported|
 |9913|该卡已签约成功|This card has already been bound successfully|
