@@ -14,6 +14,12 @@
 
 * [H5 Payment API](docs/easypay_h5_redirect.md)
 
+* [Pre-authorized capture API](docs/easypay-Pre-authorized-complete-API.md)
+
+* [Pre-authorized cancel API](docs/easypay-preauth-cancel.md)
+
+* [Pre-authorized order status query API](docs/easypay-Pre-authorized-status-query-API.md)
+
 * [Asynchronous Notification](docs/easypay-asyn-notification.md)
 
 * [Payment Result Query API](docs/easypay_payment_result_query.md)
