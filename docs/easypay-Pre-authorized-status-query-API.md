@@ -44,7 +44,7 @@ curl https://traderapi.lianlianpay.com/preauthquery.htm\
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
-|ret_code|Required|String(4)|2003 Payment created<br>2006 The transaction has expired.<br> PR07 Pre-authorized application is successful.<br>PR08 Pre-authorized application to be verified. <br>PR09 Pre-authorized application processing. <br>PR10 Pre-authorized application failed.<br>PR11 Capture successfully <br>PR12 Processing capture<br>PR13 Capture failed<br>PR14 Pre authorization revoked successfully <br>PR15 Pre authorization revocation processing <br>PR16 Pre authorization revocation failed <br>|
+|ret_code|Required|String(4)|2003 Payment created<br>2006 The transaction has expired.<br>PR07 Pre-authorized application is successful.<br>PR08 Pre-authorized application to be verified. <br>PR09 Pre-authorized application processing. <br>PR10 Pre-authorized application failed.<br>PR11 Capture successfully <br>PR12 Processing capture<br>PR13 Capture failed<br>PR14 Pre authorization revoked successfully <br>PR15 Pre authorization revocation processing <br>PR16 Pre authorization revocation failed <br>|
 |ret_msg|Required|String(100)|Return message, description of ```ret_code```, in Chinese |
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |sign_type|Required|String(3)|RSA |
