@@ -54,7 +54,7 @@ https://wallet.lianlianpay.com/llwalletapi/orderquery.htm
       <td>dt_order</td>
       <td>Optional</td>
       <td>String(14)</td>
-      <td>Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714</td>
+      <td>Merchant order date. Format: YYYYMMddHHmmss, E.g. 20170801225714</td>
    </tr>
    <tr>
       <td>oid_paybill</td>
