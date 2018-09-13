@@ -106,11 +106,11 @@ curl https://wallet.lianlianpay.com/llwalletapi/orderquery.htm \
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value|
 |no_order|Optional|String(32)|Merchant order No.|
-|dt_order|Optional|String(14)|Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Optional|String(14)|Merchant order date. Format: YYYYMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Optional|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
 |money_order|Optional|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|
 |result_pay|Optional|String| Payment result. E.g. SUCCESS|
-|settle_date|Optional|String(8)| Format YYYYMMDD. Returns when payment is successful|
+|settle_date|Optional|String(8)| Format YYYYMMdd. Returns when payment is successful|
 |info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|
 |pay_type|Optional|String| The payment method used in this transaction. <br> 0, balance payment <br> 1, online banking payment (debit card) <br> 8, online banking payment (credit card) <br> 9, business online banking payment <br> 2, express payment (debit card) <br> 3, express payment (credit card)<br> D, verified payment <br> I, WeChat Payment <br> L, Alipay Payment| 
 |bank_code|Optional|String| Short code of banks|
