@@ -29,19 +29,15 @@ All risk parameters ought to be set in a json format and assigned to ```risk_ite
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
 |frms_ware_category|Required|String||
-|frms_is_real_name|Optional|String| 0, Non-real-name <br> 1, Real name |
 |user_info_mercht_userno|Required|String| Merchant user No. Value can be same with ```user_id``` |
-|user_info_mercht_userlogin|Optional|String| User name in merchant system (phone no., email, etc.) |
 |user_info_mail|Optional|String||
 |user_info_bind_phone|Required|String|Merchant user phone number|
-|user_info_mercht_usertype|Optional|String|1, normal user <br> 2, white listed user (low risk score) <br> By default is 1|
 |user_info_dt_register|Required|String(14)|Format: YYYYMMDDHHMMSS|
-|user_info_register_ip|Optional|User IP address |
 |goods_name|Required|String| Product name. Can be same with ```name_goods```|
 
 ***
 
-## API Parameters
+## API Parameters(Server to server)
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
@@ -69,9 +65,63 @@ All risk parameters ought to be set in a json format and assigned to ```risk_ite
 |delivery_addr_full|Required|String|Address full name includes county (district)|
 |delivery_addr_province|Required|String|Province code |
 |delivery_addr_city|Required|String|City code|
-|normal_delivery_address|Optional|String||
 |delivery_full_name|Required|String|Recipient name |
 |delivery_phone|Required|String|Mobile phone number of recipient|
 |logistics_mode|Required|String|1, Post <br> 2, Ordinary Express<br> 3, Express delivery <br> 4, Logistics freight company <br> 5, Logistics and distribution company <br> 6, International express <br> 7, Shipping express <br> 8, Ocean Shipping <br>  9, Package Deliver & Pick up |
 |delivery_cycle|Required|String|12h, Within 12 hours <br> 24h, Within 24 hours <br> 48h, Within 48 hours <br> 72h, Within 72 hours <br> other, 3 days later |
+
+***
+
+## Virtual risk control parameters 
+
+Virtual risk control parameters are divided into the following 6 categories:
+* Games, no game card.Required when frms_ware_category is 1003.
+* Personal telephone recharge.
+* Anonymous ticketing, such as tickets, car tickets, etc. 
+* Car rental with a little money. 
+* Refueling cards
+* Pay for public utilities
+
+## Games
+
+***
+
+|Name|Required|Type|Description|
+|:---|:---|:---|:---|
+|game_id_belongs|Required|String|The current type of transaction.<br>1 - recharge or pay for this account.<br>2 - recharge or pay for another person's account. |
+|game_id|Required when game_id_belongs is 2|String|The repaid game account ID. |
+
+***
+
+## Personal telephone recharge
+
+|Name|Required|Type|Description|
+|:---|:---|:---|:---|
+|frms_charge_phone|Required|String|The recharged phone no. |
+
+***
+
+## Anonymous ticketing
+
+|Name|Required|Type|Description|
+|:---|:---|:---|:---|
+|cinema_name|Required|String|The company name.The name of the cinema or the name of the ticketing company etc.  |
+|book_phone|Required|String|The contact number. |
+|cinema_addr_province|Required|String|The provincial code for the location of the consumer.|
+|cinema_addr_city|Required|String|The city code for the location of the consumer.|
+|dt_play|Required|String|Effective date. Refers to the time when the movie starts, the stage plays and so on. The format is YYYYMMDDHHMISS and use 24-hour clock.  |
+|goods_count|Required|String|The Quantity of goods.|
+
+***
+
+## Car rental with small amount money
+
+|Name|Required|Type|Description|
+|:---|:---|:---|:---|
+|taxiguest_phone|Required|String|The passenger contact telephone number.  |
+|taxi_no_province|Required|String|The provincial code for the ride location.Refer to [?省市编码表待写](?.md)| |
+|taxi_no_city|Required|String|The city code for the ride location.Refer to [?省市编码表待写](?.md)|
+|bytaxi_time|Required|String|Ride time. |
+|taxi_mileage|Required|String|Ride length(km). |
+|taxidriver_phone|Required|String|The driver contact phone. |
 
