@@ -22,7 +22,7 @@ https://queryapi.lianlianpay.com/refundquery.htm
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |no_refund|Required|String(32)|Refund transaction ID. in your system. It is recommended to set a different value from ```no_order```|
-|dt_refund|Required|String(14)|Refund date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_refund|Required|String(14)|Refund date. Format: YYYYMMddHHmmss, E.g. 20170801225714|
 
 ###### Sample Request
 

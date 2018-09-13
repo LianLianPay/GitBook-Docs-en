@@ -30,7 +30,7 @@ no_order | oid_partner | dt_order | busi_partner | oid_paybill | settle_date | c
 |---|---|
 |no_order|Merchant transaction ID, the ```no_order``` in original request|
 |oid_partner|Your account ID in LianLian's system, which is ```oid_partner```|
-|dt_order|The corresponding time(UTC+8) of ```dt_order``` in original request, format: ```YYYYMMDD HH:MM:SS```. E.g. ```20171216 01:51:25```|
+|dt_order|The corresponding time(UTC+8) of ```dt_order``` in original request, format: ```YYYYMMdd HH:MM:SS```. E.g. ```20171216 01:51:25```|
 |busi_partner| The ```busi_partner``` in original request|
 |oid_paybill|The unique transaction ID in LianLian's system, that is ```oid_paybill```|
 |settle_date|The date of settlement|

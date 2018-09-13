@@ -16,7 +16,7 @@ https://queryapi.lianlianpay.com/orderquery.htm
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value|
 |no_order|Required|String(32)|Merchant order No. Optional if ```oid_paybill``` is present |
-|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Required|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098. Optional if ```no_order``` is present |
 |query_version|Optional|String(6)| 1.0, regular response(default value) <br> 1.1, return additional parameter ```memo```, ```bank_name``` |
 

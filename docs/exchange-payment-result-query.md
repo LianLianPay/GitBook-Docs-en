@@ -90,7 +90,7 @@ The following parameters are returned only when ```ret_code=0000```:
 |sign_type|Required|String(3)|Fixed value, RSA|
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |no_order|Required|String(32)|Merchant transaction No.|
-|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Required|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
 |result_pay|Required|String| Payment result. <br> SUCCESS  <br> PROCESSING <br> WAITING <br> REFUND <br> FAILURE|
 |memo|Optional|String|The remark of transaction, this field may include the failed reason of the transaction|
