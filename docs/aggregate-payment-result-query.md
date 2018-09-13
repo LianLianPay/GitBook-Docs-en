@@ -46,32 +46,32 @@ https://wallet.lianlianpay.com/llwalletapi/orderquery.htm
    </tr>
    <tr>
       <td>no_order</td>
-      <td>Optioanl</td>
+      <td>Optional</td>
       <td>String(32)</td>
       <td>Merchant order No.It's an either-or choice between no_order and oid_paybill.</td>
    </tr>
    <tr>
       <td>dt_order</td>
-      <td>Optioanl</td>
+      <td>Optional</td>
       <td>String(14)</td>
       <td>Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714</td>
    </tr>
    <tr>
       <td>oid_paybill</td>
-      <td>Optioanl</td>
+      <td>Optional</td>
       <td>String(14)</td>
       <td>The unique trade number in lianlian Pay system.</td>
    </tr>
 
    <tr>
       <td>query_version</td>
-      <td>Optioanl</td>
+      <td>Optional</td>
       <td>String(6)</td>
       <td>The query API version.The default is 1.0</td>
    </tr>
    <tr>
       <td>user_id</td>
-      <td>Optioanl</td>
+      <td>Optional</td>
       <td>String(32)</td>
       <td>The unique identification assigned to the user in the merchant’s system</td>
    </tr>
