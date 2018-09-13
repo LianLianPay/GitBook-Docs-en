@@ -23,12 +23,12 @@ The way to call this API is limited to HTML ```<form/>``` post request from clie
 |version|Required|String|Fixed value, ```1.1```|
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
-|timestamp|Required|String(14)|The time when request is initialized. Format: YYYYMMDDHHMMSS, E.g. 20170801225714. The time difference between your server and LianLian server(UTC +8) should be no more than 30 mins|
+|timestamp|Required|String(14)|The time when request is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714. The time difference between your server and LianLian server(UTC +8) should be no more than 30 mins|
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value|
 |busi_partner|Required|String(6)|Fixed value. Virtual products, ```101001```; Physical products, ```109001```|
 |no_order|Required|String(32)|Merchant order No.|
-|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMddHHmmss, E.g. 20170801225714|
 |name_goods|Required|String(40)|Product name. E.g. Pen|
 |info_order|Optional|String(255)|```info_order``` will be sent back in synchronous or asynchronous notification for parameters transmission|
 |money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|

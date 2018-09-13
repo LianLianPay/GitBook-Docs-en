@@ -21,13 +21,13 @@ https://fe-pay.lianlianpay.com/exchange/v1/bankcardpayapply
 |api_version|Required|String(6)|Fixed value, ```1.0```|
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
-|time_stamp|Required|String(14)|The time when request is initialized. Format: YYYYMMDDHHMMSS, E.g. 20170801225714. The deviation can NOT exceed 30 minutes between your server and LianLian's server(GMT +8). |
+|time_stamp|Required|String(14)|The time when request is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714. The deviation can NOT exceed 30 minutes between your server and LianLian's server(GMT +8). |
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
 |platform|Optional|String(32)| ```platform``` is used for sharing user info between multiple ```oid_partner```, this requires additional settings from LianLian side|
 |busi_partner|Required|String(6)|Fixed value. Virtual products, ```101001```; Physical products, ```109001```|
 |no_order|Required|String(32)|Merchant transaction No.|
-|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714|
 |name_goods|Required|String(40)|Product name. E.g. Pen|
 |info_order|Optional|String(255)|```info_order``` will be sent back in synchronous or asynchronous notification for parameters transmission|
 |notify_url|Required|String(128)|Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify|
