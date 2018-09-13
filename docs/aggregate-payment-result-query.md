@@ -62,17 +62,7 @@ https://wallet.lianlianpay.com/llwalletapi/orderquery.htm
       <td>String(14)</td>
       <td>The unique trade number in lianlian Pay system.</td>
    </tr>
-   <tr>
-      <td>type_dc</td>
-      <td>Required</td>
-      <td>String(1)</td>
-      <td class="AutoNewline">transaction type
-        
-    0:merchant collect money
-    1:payment from merchant（merchant withdraw,）
-    2:user collect money(collect money,transfer account and recharge)
-    3:user withdraw</td>
-   </tr>
+
    <tr>
       <td>query_version</td>
       <td>Optioanl</td>
