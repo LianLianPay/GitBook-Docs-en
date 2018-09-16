@@ -14,6 +14,10 @@
 
 * [H5 Payment API](docs/easypay_h5_redirect.md)
 
+* [Easypay Apply Direct API](docs/easypay-apply-direct-API.md)
+
+* [Easypay Verify Direct API](docs/easypay-verify-direct-api.md)
+
 * [Pre-authorized capture API](docs/easypay-Pre-authorized-complete-API.md)
 
 * [Pre-authorized cancel API](docs/easypay-preauth-cancel.md)

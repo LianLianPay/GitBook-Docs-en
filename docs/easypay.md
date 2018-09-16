@@ -31,6 +31,12 @@ Once the verification is done, a special parameter named ```no_agree``` is gener
 
 ![](../assests/Easypay_web_standard_flow.svg)
 
+## Dierect APIs
+
+* Below is a typical UML sequence diagram for the interactions with Easy Payment Direct API.
+
+![](../assests/Easypay_direct_api.svg)
+
 
 
 
