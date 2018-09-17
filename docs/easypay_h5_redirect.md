@@ -44,6 +44,10 @@ The way to call this API is limited to HTML ```<form/>``` post request from clie
 |valid_order|Optional|Int|The valid period of ```no_order```, in minute. The status of corresponding transaction will be set to "Closed" once its ```valid_order``` run out. Default: 10080 (7 days). |
 |pay_type|Required|String| M, regular payments <br> F, authorization, used for credit card only. An error throws out if the used card is not a credit card|
 |risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment_risk_item.md)| 
+|acct_name|Optional|String|The name of payer, in Chinese|
+|card_no|Optional|String|User's card number|
+|id_type|Optional|String(1)| 0, ID card <br> 2, Passport <br> 3, Military Officer Certificate <br> 4, Hong Kong-Macau laissez-passer <br> 6, Mainland travel permit for Taiwan residents <br> 9, Police Officer card <br> X, other certificates |
+|id_no|Optional|String| The number of User's ID card. The length need to be either 15 or 18|
 
 
 > ```id_no```, ```acct_name```, ```id_type```, ```card_no``` are ignored if ```no_agree``` is present.

@@ -38,6 +38,10 @@ The way to call this API is limited to HTML ```<form/>``` post request from clie
 |risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment_risk_item.md)| 
 |back_url|Optional|String(128)| The url where user is redirected when they need to change cards. For [payment info preset](easypay.md#payment-info-preset) only|
 |no_agree|Optional|String(32)| A token which represents the key payment information, refer to [Binding Card](easypay.md) for more details|
+|acct_name|Optional|String|The name of payer, in Chinese|
+|card_no|Optional|String|User's card number|
+|id_type|Optional|String(1)| 0, ID card <br> 2, Passport <br> 3, Military Officer Certificate <br> 4, Hong Kong-Macau laissez-passer <br> 6, Mainland travel permit for Taiwan residents <br> 9, Police Officer card <br> X, other certificates |
+|id_no|Optional|String| The number of User's ID card. The length need to be either 15 or 18|
 
 
 
