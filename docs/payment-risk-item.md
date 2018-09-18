@@ -119,8 +119,8 @@ Virtual risk control parameters are divided into the following 6 categories:
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
 |taxiguest_phone|Required|String|The passenger contact telephone number.  |
-|taxi_no_province|Required|String|The provincial code for the ride location.Refer to [?省市编码表待写](?.md)| |
-|taxi_no_city|Required|String|The city code for the ride location.Refer to [?省市编码表待写](?.md)|
+|taxi_no_province|Required|String|The provincial code for the ride location. |
+|taxi_no_city|Required|String|The city code for the ride location. |
 |bytaxi_time|Required|String|Ride time. |
 |taxi_mileage|Required|String|Ride length(km). |
 |taxidriver_phone|Required|String|The driver contact phone. |
