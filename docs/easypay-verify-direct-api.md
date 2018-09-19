@@ -23,7 +23,7 @@ https://traderapi.lianlianpay.com/easypayverify.htm
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |no_order|Required|String(32)|Merchant transaction No.|
 |token|Required|String| It'll lose effectiveness in 30 minutes. |
-|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714|
+|dt_order|Required|String(14)|The date when the transaction is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected,|
 |verify_code|Required|String(6)|The SMS verification code sent in [Easypay Apply Direct API](easypay-apply-direct-API.md)|
 

@@ -37,7 +37,7 @@ https://wallet.lianlianpay.com/llwalletapi/combinepay.htm
 |col_userid|Optional|String| Set the recipient as user. This parameter is for E-wallet user only, skip this param if you are not using it. ```col_userid``` can NOT be present with ```col_oidpartner``` in one request|
 |col_oidpartner|Optional|String(18)|Set the recipient as relevant ```oid_partner```. ```col_oidpartner``` can NOT be present with ```col_userid``` in one request|
 |name_goods|Required|String(40)|Product name. E.g. Pen|
-|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Required|String(14)|Merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |notify_url|Required|String(128)|Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify|
 |return_url|Optional|String(128)|Online url, your customer will be redirected to ```url_return``` once they finished their payment|
 |info_order|Optional|String(255)|```info_order``` will be sent back in synchronous or asynchronous notification for parameters transmission|

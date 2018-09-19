@@ -32,7 +32,7 @@ All risk parameters ought to be set in a json format and assigned to ```risk_ite
 |user_info_mercht_userno|Required|String| Merchant user No. Value can be same with ```user_id``` |
 |goods_count|Required|String|Quantity of goods|
 |user_info_bind_phone|Required|String|Merchant user phone number. Required when merchants hold this info.|
-|user_info_dt_register|Required|String(14)|User registration time at merchant side. Format: YYYYMMddHHmmss|
+|user_info_dt_register|Required|String(14)|User registration time at merchant side. Format: yyyyMMddHHmmss|
 |goods_name|Required|String| Product name. Can be same with ```name_goods```|
 
 ***

@@ -16,7 +16,7 @@ This asynchronous notification is sent out to the ```notify_url``` of the origin
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |no_refund|Required|String(32)|Refund No. in your system. It is recommended to set a different value from ```no_order```|
-|dt_refund|Required|String(14)|Refund date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_refund|Required|String(14)|Refund date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |money_refund|Required|String(12)|The actual refund amount, in CNY.|
 |money_foreign_refund|Required|String(12)|The actual refund amount, which is ```money_order``` in original request|
 |rate_id|Required|String|The ID of rate|

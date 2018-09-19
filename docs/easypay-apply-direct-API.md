@@ -1,4 +1,4 @@
-# Easypay Apply Direct API
+# Easypay  Apply Direct API
 
 This API is used to apply card Payment, create corresponding transaction object in LianLian's system and send SMS verification code.
 
@@ -26,7 +26,7 @@ https://traderapi.lianlianpay.com/easypay.htm
 |platform|Optional|String(32)| ```platform``` is used for sharing user info between multiple ```oid_partner```, this requires additional settings from LianLian side|
 |busi_partner|Required|String(6)|Fixed value. Virtual products, ```101001```; Physical products, ```109001```|
 |no_order|Required|String(32)|Merchant transaction No.|
-|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714|
+|dt_order|Required|String(14)|The date when the transaction is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |name_goods|Required|String(40)|Product name. E.g. Pen|
 |info_order|Optional|String(255)|```info_order``` will be sent back in synchronous or asynchronous notification for parameters transmission|
 |notify_url|Required|String(128)|Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify|
@@ -102,12 +102,11 @@ The following parameters are returned only when ```ret_code=0000```:
 |sign_type|Required|String(3)|Fixed value, RSA or SHA256WITHRSA|
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |no_order|Required|String(32)|Merchant transaction No.|
-|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714|
+|dt_order|Required|String(14)|The date when the transaction is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Optional|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098. Returned when the transaction object is created successfully. |
-|currency_order|Required|String(3)|The currency used in the transaction. Refer to [supported currencies](supported-currencies.md) |
 |money_order|Required|String(12)|Merchant transaction amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in the currency of ```currency_order```|
 |result_pay|Optional|String| Payment result. <br> SUCCESS - Payment proceed successfully <br> PROCESSING -  Payment is processing. Return only when **No SMS Verification Flow** is setup|
-|token|Optional|String| It'll lose effectiveness in 30 minutes. Won't return if **No SMS Verification Flow** is setup.  Used for [Easypay Payment Verify Direct API](easypay-verify-direct-api.md)|
+|token|Optional|String| It'll lose effectiveness in 30 minutes. Won't return if **No SMS Verification Flow** is setup.  Used for [Easypay Verify Direct API](easypay-verify-direct-api.md)|
 |name_goods|Required|String(40)|Product name. E.g. Pen|
 |pay_type|Optional|String(1)| The pay type used in current transaction.|
 |info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|

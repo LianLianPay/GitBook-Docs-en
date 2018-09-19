@@ -20,12 +20,12 @@ The way to call this API is limited to HTML ```<form/>``` post request from clie
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |platform|Optional|String(32)| ```platform``` is used for sharing user info between multiple ```oid_partner```, this requires additional settings from LianLian side|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
-|timestamp|Required|String(14)|The time when request is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714. The time difference between your server and LianLian server(UTC +8) should be no more than 30 mins|
+|timestamp|Required|String(14)|The time when request is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714. The time difference between your server and LianLian server(UTC +8) should be no more than 30 mins|
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value|
 |busi_partner|Required|String(6)|Fixed value. Virtual products, ```101001```; Physical products, ```109001```|
 |no_order|Required|String(32)|Merchant order No.|
-|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMddHHmmss, E.g. 20170801225714|
+|dt_order|Required|String(14)|Merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |name_goods|Required|String(40)|Product name. E.g. Pen|
 |info_order|Optional|String(255)|```info_order``` will be sent back in synchronous or asynchronous notification for parameters transmission|
 |money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|
@@ -87,7 +87,7 @@ Payment synchronous notification, a HTTP POST request, will be sent to ```url_re
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value|
 |no_order|Required|String(32)|Merchant order No.|
-|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Required|String(14)|Merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Required|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
 |money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|
 |settle_date|Optional|String(8)| Format YYYYMMDD. Returns when payment is successful|

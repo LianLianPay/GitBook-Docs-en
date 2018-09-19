@@ -16,7 +16,7 @@ This asynchronous notification is sent out to the ```notify_url``` of the origin
 |sign_type|Required|String(3)|Fixed value, RSA|
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |no_order|Required|String(32)|Merchant transaction No.|
-|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Required|String(14)|The date when the transaction is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Required|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
 |result_pay|Required|String| Payment result. <br> SUCCESS - Payment proceed successfully <br> PROCESSING -  Payment is processing. Return only when **No SMS Verification Flow** is setup|
 |settle_date|Required|String(8)| Format YYYYMMDD. |

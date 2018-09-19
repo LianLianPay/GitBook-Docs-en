@@ -20,7 +20,7 @@ https://traderapi.lianlianpay.com/preauthCancel.htm
 |api_version|Required|String|Fixed value, ```1.0```|
 |money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|
 |no_order|Required|String(32)|Merchant order No.|
-|dt_order|Required|String(14)|Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Required|String(14)|Merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Optional|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
 
 
@@ -56,7 +56,7 @@ curl https://traderapi.lianlianpay.com/preauthCancel.htm\
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value|
 |no_order|Optional|String(32)|Merchant order No.|
-|dt_order|Optional|String(14)|Merchant order date. Format: YYYYMMDDHHMMSS, E.g. 20170801225714|
+|dt_order|Optional|String(14)|Merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Required|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
 

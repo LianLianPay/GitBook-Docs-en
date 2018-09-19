@@ -21,7 +21,7 @@ https://fe-pay.lianlianpay.com/exchange/v1/bankcardpayverify
 |api_version|Required|String(6)|Fixed value, ```1.0```|
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
-|time_stamp|Required|String(14)|The time when request is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714. The deviation can NOT exceed 30 minutes between your server and LianLian's server(GMT +8). |
+|time_stamp|Required|String(14)|The time when request is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714. The deviation can NOT exceed 30 minutes between your server and LianLian's server(GMT +8). |
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
 |token|Required|String|The token returned in [Exchange Payment Apply API](exchange-payment-apply-api.md)|
@@ -65,7 +65,7 @@ The following parameters are returned only when ```ret_code=0000```:
 |sign_type|Required|String(3)|Fixed value, RSA|
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |no_order|Required|String(32)|Merchant transaction No.|
-|dt_order|Required|String(14)|The date when the transaction is initialized. Format: YYYYMMddHHmmss, E.g. 20170801225714|
+|dt_order|Required|String(14)|The date when the transaction is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Required|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
 |result_pay|Required|String| Payment result. <br> SUCCESS - Payment proceed successfully <br> PROCESSING -  Payment is processing. Return only when **No SMS Verification Flow** is setup|
 |settle_date|Required|String(8)| Format YYYYMMDD. |
