@@ -61,6 +61,7 @@ All risk parameters ought to be set in a json format and assigned to ```risk_ite
 
 ### Real-name businessman and traveller(air ticket, train ticket)
 In case there are several goods for one order，please send following parameters in a list.  key=airline_list
+
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
 |airline_code|Required|String||
@@ -71,11 +72,11 @@ In case there are several goods for one order，please send following parameters
 |passenger_phone|Required|String|Allow merchant to mask off the last four digits with the symbol *. |
 |station_from_province|Required|String|Three-letter designator of the take-off airport.  |
 |airport_to|Required|String|Three-letter designator of the landing airport.|
-|station_from_city|Required|String| |
-|station_from_province|Required|String||
-|station_to_province|Required|String| |
-|station_to_city|Required|String| |
-|dt_flight|Required|String||
+|station_from_city|Required|String|The city code of the city where train leaves. |
+|station_from_province|Required|String|The province code of the city where train leaves. |
+|station_to_province|Required|String|The province code of the city where train arrive to. |
+|station_to_city|Required|String|The city code of the city where train arrive to. |
+|dt_flight|Required|String|Flight date / travel date.Format: YYYYMMdd|
 
 ***
 
@@ -93,6 +94,7 @@ In case there are several goods for one order，please send following parameters
 
 ### Tourist products
 In case there are several goods for one order，please send following parameters in a list.  key=airline_list
+
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
 |book_phone|Required|String|Contact number when booking tickets|
@@ -115,15 +117,8 @@ In case there are several goods for one order，please send following parameters
 
 ***
 
-## Virtual risk control parameters 
+## Virtual products risk control parameters 
 
-Virtual risk control parameters are divided into the following 6 categories:
-* Games, no game card.Required when frms_ware_category is 1003.
-* Personal telephone recharge.
-* Anonymous ticketing, such as tickets, car tickets, etc. 
-* Car rental with a little money. 
-* Refueling cards
-* Pay for public utilities
 
 ## Games
 
