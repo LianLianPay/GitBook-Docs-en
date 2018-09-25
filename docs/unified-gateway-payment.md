@@ -10,7 +10,7 @@ Unified gateway payment API provides a convenient and secure access mode for mer
 
 ![](../assests/Unifiedpay_direct_api.svg)
 
-* Merchant requests payment creation API at server side. Lianlian will return a payment page url for merchant to dispay.
+* Merchant requests payment creation API at server side. Lianlian will return a payment page URL for merchant to dispay.
 * For card payment, the user finishs payment at Lianlian payment page.
 * For online banking payment, users login online banking system and pay online.(If bank code is NOT null, the user will be redirected to online banking payment.)
 * Process the notificaton and update the payment status.
@@ -20,7 +20,7 @@ Unified gateway payment API provides a convenient and secure access mode for mer
 ## Implement
 
 
-1. [Request payment](online-banking-redirect-api.md)  Redirect your user to Lianlian payment page.
+1. [Request payment](Unified-direct-api.md)  Redirect your user to Lianlian payment page.
    
 2. [Synchronous Notification(optional)](sync-notification.md)  Lianlian will send synchronous notification to the ```url_return``` after the payment is confirmed as successful.
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 生成 Easypay_direct_api.svg Page-1 -->
+<!-- 由 Microsoft Visio, SVG Export 生成 Unifiedpay_direct_api.svg Page-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="8.26772in"
-		viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.58568in" height="4.89183in"
+		viewBox="0 0 546.169 352.212" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
 	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
 		<v:userDefs>
 			<v:ud v:nameU="msvNoAutoConnect" v:prompt="" v:val="VT0(1):26"/>
@@ -50,7 +50,7 @@
 		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
 				v:shadowOffsetY="-8.50394"/>
 		<v:layer v:name="连接线" v:index="0"/>
-		<g id="group38-1" transform="translate(51.4488,-532.913)" v:mID="38" v:groupContext="group">
+		<g id="group38-1" transform="translate(18.25,-304.907)" v:mID="38" v:groupContext="group">
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(1):5"/>
@@ -60,22 +60,22 @@
 			<desc>User</desc>
 			<g id="shape39-2" v:mID="39" v:groupContext="shape" transform="translate(19.8425,0)">
 				<title>工作表.39</title>
-				<rect x="0" y="569.764" width="51.0236" height="25.5118" class="st1"/>
+				<rect x="0" y="326.7" width="51.0236" height="25.5118" class="st1"/>
 			</g>
 			<g id="shape41-4" v:mID="41" v:groupContext="shape" transform="translate(30.2362,286.907)">
 				<title>工作表.41</title>
 			</g>
-			<g id="shape42-6" v:mID="42" v:groupContext="shape" transform="translate(640.63,595.276) rotate(90)">
+			<g id="shape42-6" v:mID="42" v:groupContext="shape" transform="translate(397.566,352.212) rotate(90)">
 				<title>工作表.42</title>
-				<path d="M0 595.28 L269.29 595.28" class="st2"/>
+				<path d="M0 352.21 L269.29 352.21" class="st2"/>
 			</g>
 			<g id="shape38-9" v:mID="38" v:groupContext="groupContent">
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="45.3543" cy="582.52" width="90.71" height="25.5118"/>
-				<rect x="0" y="569.764" width="90.7087" height="25.5118" class="st1"/>
-				<text x="33.79" y="585.82" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>User</text>			</g>
+				<v:textRect cx="45.3543" cy="339.456" width="90.71" height="25.5118"/>
+				<rect x="0" y="326.7" width="90.7087" height="25.5118" class="st1"/>
+				<text x="33.79" y="342.76" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>User</text>			</g>
 		</g>
-		<g id="group43-12" transform="translate(214.157,-532.913)" v:mID="43" v:groupContext="group">
+		<g id="group43-12" transform="translate(180.959,-304.907)" v:mID="43" v:groupContext="group">
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
@@ -85,26 +85,26 @@
 			<desc>Merchant Server</desc>
 			<g id="shape44-13" v:mID="44" v:groupContext="shape" transform="translate(43.2283,0)">
 				<title>工作表.44</title>
-				<rect x="0" y="569.764" width="51.0236" height="25.5118" class="st1"/>
+				<rect x="0" y="326.7" width="51.0236" height="25.5118" class="st1"/>
 			</g>
 			<g id="shape45-15" v:mID="45" v:groupContext="shape" transform="translate(60.2362,-29.0551)">
 				<title>工作表.45</title>
-				<path d="M8.5 595.28 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+				<path d="M8.5 352.21 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
 			</g>
 			<g id="shape46-17" v:mID="46" v:groupContext="shape" transform="translate(45.8268,286.907)">
 				<title>工作表.46</title>
 			</g>
-			<g id="shape47-19" v:mID="47" v:groupContext="shape" transform="translate(664.016,595.276) rotate(90)">
+			<g id="shape47-19" v:mID="47" v:groupContext="shape" transform="translate(420.952,352.212) rotate(90)">
 				<title>工作表.47</title>
-				<path d="M0 595.28 L269.29 595.28" class="st2"/>
+				<path d="M0 352.21 L269.29 352.21" class="st2"/>
 			</g>
 			<g id="shape43-22" v:mID="43" v:groupContext="groupContent">
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="68.7402" cy="582.52" width="137.49" height="25.5118"/>
-				<rect x="0" y="569.764" width="137.48" height="25.5118" class="st1"/>
-				<text x="26.02" y="585.82" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Merchant Server  </text>			</g>
+				<v:textRect cx="68.7402" cy="339.456" width="137.49" height="25.5118"/>
+				<rect x="0" y="326.7" width="137.48" height="25.5118" class="st1"/>
+				<text x="26.02" y="342.76" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Merchant Server  </text>			</g>
 		</g>
-		<g id="group54-25" transform="translate(423.638,-532.913)" v:mID="54" v:groupContext="group">
+		<g id="group54-25" transform="translate(390.439,-304.907)" v:mID="54" v:groupContext="group">
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 				<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
@@ -114,26 +114,26 @@
 			<desc>LianLianPay Server</desc>
 			<g id="shape55-26" v:mID="55" v:groupContext="shape" transform="translate(43.2283,0)">
 				<title>工作表.55</title>
-				<rect x="0" y="569.764" width="51.0236" height="25.5118" class="st1"/>
+				<rect x="0" y="326.7" width="51.0236" height="25.5118" class="st1"/>
 			</g>
 			<g id="shape56-28" v:mID="56" v:groupContext="shape" transform="translate(60.2362,-29.0551)">
 				<title>工作表.56</title>
-				<path d="M8.5 595.28 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+				<path d="M8.5 352.21 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
 			</g>
 			<g id="shape57-30" v:mID="57" v:groupContext="shape" transform="translate(45.8268,286.907)">
 				<title>工作表.57</title>
 			</g>
-			<g id="shape58-32" v:mID="58" v:groupContext="shape" transform="translate(664.016,595.276) rotate(90)">
+			<g id="shape58-32" v:mID="58" v:groupContext="shape" transform="translate(420.952,352.212) rotate(90)">
 				<title>工作表.58</title>
-				<path d="M0 595.28 L269.29 595.28" class="st2"/>
+				<path d="M0 352.21 L269.29 352.21" class="st2"/>
 			</g>
 			<g id="shape54-35" v:mID="54" v:groupContext="groupContent">
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="68.7402" cy="582.52" width="137.49" height="25.5118"/>
-				<rect x="0" y="569.764" width="137.48" height="25.5118" class="st1"/>
-				<text x="20.21" y="585.82" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>LianLianPay Server</text>			</g>
+				<v:textRect cx="68.7402" cy="339.456" width="137.49" height="25.5118"/>
+				<rect x="0" y="326.7" width="137.48" height="25.5118" class="st1"/>
+				<text x="20.21" y="342.76" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>LianLianPay Server</text>			</g>
 		</g>
-		<g id="shape64-38" v:mID="64" v:groupContext="shape" v:layerMember="0" transform="translate(96.8031,-508.819)">
+		<g id="shape64-38" v:mID="64" v:groupContext="shape" v:layerMember="0" transform="translate(63.6043,-280.812)">
 			<title>消息.21</title>
 			<desc>1: Payment request</desc>
 			<v:userDefs>
@@ -143,25 +143,25 @@
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="93.0472" cy="588.189" width="104.05" height="21.2037"/>
-			<path d="M0 588.19 L178.61 588.19" class="st4"/>
-			<rect v:rectContext="textBkgnd" x="46.5333" y="581.589" width="93.0281" height="13.2001" class="st6"/>
-			<text x="46.53" y="591.49" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1: Payment request</text>		</g>
-		<g id="shape65-46" v:mID="65" v:groupContext="shape" transform="translate(-494.22,297.638) rotate(-90)">
+			<v:textRect cx="93.0472" cy="345.125" width="104.05" height="21.2037"/>
+			<path d="M0 345.13 L178.61 345.13" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="46.5333" y="338.525" width="93.0281" height="13.2001" class="st6"/>
+			<text x="46.53" y="348.43" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1: Payment request</text>		</g>
+		<g id="shape65-46" v:mID="65" v:groupContext="shape" transform="translate(-284.355,282.581) rotate(-90)">
 			<title>激活</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<rect x="0" y="586.772" width="218.268" height="8.50394" class="st8"/>
+			<rect x="0" y="343.708" width="218.268" height="8.50394" class="st8"/>
 		</g>
-		<g id="shape66-48" v:mID="66" v:groupContext="shape" transform="translate(-308.126,297.638) rotate(-90)">
+		<g id="shape66-48" v:mID="66" v:groupContext="shape" transform="translate(-98.261,282.581) rotate(-90)">
 			<title>激活.66</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<rect x="0" y="586.772" width="218.268" height="8.50394" class="st8"/>
+			<rect x="0" y="343.708" width="218.268" height="8.50394" class="st8"/>
 		</g>
-		<g id="shape67-50" v:mID="67" v:groupContext="shape" v:layerMember="0" transform="translate(287.15,-491.811)">
+		<g id="shape67-50" v:mID="67" v:groupContext="shape" v:layerMember="0" transform="translate(253.951,-263.804)">
 			<title>自关联消息.23</title>
 			<desc>2: Request pre create order API</desc>
 			<v:userDefs>
@@ -172,11 +172,11 @@
 				<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="102.614" cy="588.189" width="161.87" height="21.2037"/>
-			<path d="M0 588.19 L197.75 588.19" class="st4"/>
-			<rect v:rectContext="textBkgnd" x="27.1898" y="581.589" width="150.849" height="13.2001" class="st6"/>
-			<text x="27.19" y="591.49" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2: Request pre create order API</text>		</g>
-		<g id="shape68-57" v:mID="68" v:groupContext="shape" v:layerMember="0" transform="translate(492.378,-454.961)">
+			<v:textRect cx="102.614" cy="345.125" width="161.87" height="21.2037"/>
+			<path d="M0 345.13 L197.75 345.13" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="27.1898" y="338.525" width="150.849" height="13.2001" class="st6"/>
+			<text x="27.19" y="348.43" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2: Request pre create order API</text>		</g>
+		<g id="shape68-57" v:mID="68" v:groupContext="shape" v:layerMember="0" transform="translate(459.179,-226.954)">
 			<title>返回消息.22</title>
 			<desc>3: Return a payment gateway url</desc>
 			<v:userDefs>
@@ -186,11 +186,11 @@
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="-104.74" cy="588.189" width="168.04" height="21.2037"/>
-			<path d="M0 588.19 L-209.48 588.19" class="st9"/>
-			<rect v:rectContext="textBkgnd" x="-183.248" y="581.589" width="157.015" height="13.2001" class="st10"/>
-			<text x="-183.25" y="591.49" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3: Return a payment gateway url</text>		</g>
-		<g id="shape69-65" v:mID="69" v:groupContext="shape" v:layerMember="0" transform="translate(287.15,-424.488)">
+			<v:textRect cx="-104.74" cy="345.125" width="168.04" height="21.2037"/>
+			<path d="M0 345.13 L-209.48 345.13" class="st9"/>
+			<rect v:rectContext="textBkgnd" x="-183.248" y="338.525" width="157.015" height="13.2001" class="st6"/>
+			<text x="-183.25" y="348.43" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3: Return a payment gateway url</text>		</g>
+		<g id="shape69-65" v:mID="69" v:groupContext="shape" v:layerMember="0" transform="translate(253.951,-196.481)">
 			<title>消息.21.69</title>
 			<desc>4: Load the page of returned url</desc>
 			<v:userDefs>
@@ -200,18 +200,18 @@
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="104.457" cy="588.189" width="168.54" height="21.2037"/>
-			<path d="M0 588.9 L201.43 587.53" class="st4"/>
-			<rect v:rectContext="textBkgnd" x="27.206" y="581.589" width="154.501" height="13.2001" class="st10"/>
-			<text x="27.21" y="591.49" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4: Load the page of returned url  </text>		</g>
-		<g id="shape70-72" v:mID="70" v:groupContext="shape" transform="translate(-98.6457,288.58) rotate(-90)">
+			<v:textRect cx="104.457" cy="345.125" width="168.54" height="21.2037"/>
+			<path d="M0 345.83 L201.43 344.47" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="27.206" y="338.525" width="154.501" height="13.2001" class="st6"/>
+			<text x="27.21" y="348.43" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4: Load the page of returned url  </text>		</g>
+		<g id="shape70-72" v:mID="70" v:groupContext="shape" transform="translate(111.219,273.523) rotate(-90)">
 			<title>激活.70</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<rect x="0" y="586.772" width="98.6591" height="8.50394" class="st8"/>
+			<rect x="0" y="343.708" width="98.6591" height="8.50394" class="st8"/>
 		</g>
-		<g id="shape71-74" v:mID="71" v:groupContext="shape" v:layerMember="0" transform="translate(96.8031,-398.268)">
+		<g id="shape71-74" v:mID="71" v:groupContext="shape" v:layerMember="0" transform="translate(63.6043,-170.261)">
 			<title>消息.21.71</title>
 			<desc>5: Finish the payment on Lianlian page.</desc>
 			<v:userDefs>
@@ -221,18 +221,18 @@
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="197.787" cy="588.189" width="199.67" height="21.2037"/>
-			<path d="M0 588.19 L388.09 588.19" class="st4"/>
-			<rect v:rectContext="textBkgnd" x="103.465" y="581.589" width="188.646" height="13.2001" class="st6"/>
-			<text x="103.46" y="591.49" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5: Finish the payment on Lianlian page.</text>		</g>
-		<g id="shape72-81" v:mID="72" v:groupContext="shape" transform="translate(-98.6457,204.094) rotate(-90)">
+			<v:textRect cx="197.787" cy="345.125" width="199.67" height="21.2037"/>
+			<path d="M0 345.13 L388.09 345.13" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="103.465" y="338.525" width="188.646" height="13.2001" class="st10"/>
+			<text x="103.46" y="348.43" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5: Finish the payment on Lianlian page.</text>		</g>
+		<g id="shape72-81" v:mID="72" v:groupContext="shape" transform="translate(111.219,189.037) rotate(-90)">
 			<title>激活.72</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<rect x="0" y="586.772" width="124.724" height="8.50394" class="st8"/>
+			<rect x="0" y="343.708" width="124.724" height="8.50394" class="st8"/>
 		</g>
-		<g id="shape88-83" v:mID="88" v:groupContext="shape" v:layerMember="0" transform="translate(492.378,-365.669)">
+		<g id="shape88-83" v:mID="88" v:groupContext="shape" v:layerMember="0" transform="translate(459.179,-137.663)">
 			<title>消息.21.88</title>
 			<desc>6: Async notification</desc>
 			<v:userDefs>
@@ -242,11 +242,11 @@
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="-102.614" cy="588.189" width="108.66" height="21.2037"/>
-			<path d="M0 589.61 L-197.75 586.87" class="st4"/>
-			<rect v:rectContext="textBkgnd" x="-151.435" y="581.589" width="97.6426" height="13.2001" class="st6"/>
-			<text x="-151.44" y="591.49" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6: Async notification</text>		</g>
-		<g id="shape90-90" v:mID="90" v:groupContext="shape" v:layerMember="0" transform="translate(282.898,-327.402)">
+			<v:textRect cx="-102.614" cy="345.125" width="108.66" height="21.2037"/>
+			<path d="M0 346.54 L-197.75 343.81" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="-151.435" y="338.525" width="97.6426" height="13.2001" class="st6"/>
+			<text x="-151.44" y="348.43" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6: Async notification</text>		</g>
+		<g id="shape90-90" v:mID="90" v:groupContext="shape" v:layerMember="0" transform="translate(249.699,-113.568)">
 			<title>返回消息.22.90</title>
 			<desc>7: Response</desc>
 			<v:userDefs>
@@ -256,9 +256,9 @@
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="106.866" cy="588.189" width="68.91" height="21.2037"/>
-			<path d="M0 588.19 L213.73 588.19" class="st9"/>
-			<rect v:rectContext="textBkgnd" x="77.9239" y="581.589" width="57.8848" height="13.2001" class="st10"/>
-			<text x="77.92" y="591.49" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>7: Response</text>		</g>
+			<v:textRect cx="106.866" cy="359.298" width="68.91" height="21.2037"/>
+			<path d="M0 359.3 L213.73 359.3" class="st9"/>
+			<rect v:rectContext="textBkgnd" x="77.9239" y="352.699" width="57.8848" height="13.2001" class="st6"/>
+			<text x="77.92" y="362.6" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>7: Response</text>		</g>
 	</g>
 </svg>
