@@ -6,6 +6,11 @@
 
 * [Preparation](docs/prepartion.md)
 
+## Unified gateway payment
+
+* [Overview](unified-gateway-payment.md)
+* [Payment creation direct API](Unified-direct-api.md)
+
 ## Easy Payment
 
 * [Overview](docs/easypay.md)

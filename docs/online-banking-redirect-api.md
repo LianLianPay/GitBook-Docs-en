@@ -21,7 +21,7 @@ https://payment.lianlianpay.com/payment/bankgateway.htm
 ###### Request Parameters
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
-|version_1.0|Required|String(6)|Fixed value, 1.0|
+|version|Required|String(6)|Fixed value, 1.0|
 |charset_name|Required|String(18)|Encoding format of merchat website,support UTF-8(default),GBK,GB2312 and GB18030.|
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
