@@ -31,4 +31,4 @@ If you have any questions about development or use of our API, please contact th
 |:---|:---|:---|
 |Su Liang|+86 15057168900|suliang@lianlianpay.com|
 |Peng LiJuan|+86 18867518002|penglj@lianlianpay.com|
-|Tech Supports Group| N/A| tech_support@lianlianpay.com|
+|Tech Supports Group| N/A|tech_support@lianlianpay.com|
