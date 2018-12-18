@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to LianLian.
+Welcome to [LianLian](https://lianlianpay.gitbook.io/docs/).
 
 Get started with following products:
 
@@ -29,6 +29,6 @@ If you have any questions about development or use of our API, please contact th
 
 |Name|Mobile Phone|Email|
 |:---|:---|:---|
-|Su Liang|+86 15057168900|suliang@yintong.com.cn|
-|Peng LiJuan|+86 18867518002|penglj@yintong.com.cn|
-|Tech Supports Group| N/A| tech_support@yintong.com.cn|
+|Su Liang|+86 15057168900|suliang@lianlianpay.com|
+|Peng LiJuan|+86 18867518002|penglj@lianlianpay.com|
+|Tech Supports Group| N/A| tech_support@lianlianpay.com|
