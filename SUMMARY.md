@@ -9,7 +9,8 @@
 ## Unified gateway payment
 
 * [Overview](unified-gateway-payment.md)
-* [Payment creation direct API](Unified-direct-api.md)
+* [Payment Creation Direct API](Unified-direct-api.md)
+* [New Online Banking Overview](docs/new-online-banking-overview.md)
 
 ## Easy Payment
 
@@ -100,3 +101,5 @@
 * [Return Codes](docs/return-codes.md)
 
 * [Supported Currencies](docs/supported-currencies.md)
+
+* [Supported Banks](docs/supported-banks.md)
