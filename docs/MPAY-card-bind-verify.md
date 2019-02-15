@@ -1,6 +1,6 @@
 # Card Bind Verify API
 
-This API verify the SMS verification code, token and then do the card bind action, it needs to be used in conjunction with [Card Bind Apply API](card-bind-apply-api.md) to complete card bind action. 
+This API verify the SMS verification code, token and then do the card bind action, it needs to be used in conjunction with [Card Bind Apply API](MPAY-card-bind-apply.md) to complete card bind action. 
 
 ***
 
@@ -9,7 +9,7 @@ This API verify the SMS verification code, token and then do the card bind actio
 ###### Endpoint
 
 ```text
-https://mpayapi.lianlianpay.com/v1/bankcardbindverfy
+https://traderapi.lianlianpay.com/bankcardbindverfy.htm
 ```
 
 ###### Parameter
@@ -17,11 +17,12 @@ https://mpayapi.lianlianpay.com/v1/bankcardbindverfy
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
-|sign_type|Required|String(3)|RSA or SHA256withRSA|
+|sign_type|Required|String(3)|RSA or SHA256withRSA |
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
-|token|Required|String| The token returned in [Card Bind Apply API](card-bind-apply-api.md)|
+|token|Required|String| The token returned in [MPAY Card Bind Apply API](MPAY-card-bind-apply.md)|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
-|verify_code|Required|String|The SMS verification code which is sent out by [Card Bind Apply API](card-bind-apply-api.md)|
+|verify_code|Required|String|The SMS verification code which is sent out by [MPAY Card Bind Apply API](MPAY-card-bind-apply.md)|
+|no_order|Optional|String| Card binding application serial number.|
 
 ###### Sample Request
 
@@ -33,7 +34,7 @@ curl https://traderapi.lianlianpay.com/bankcardbindverfy.htm \
     	"token": "D096DBA0E3E0CC8F1D504C06E71D292D",
     	"user_id": "2013051500001",
     	"verify_code": "666666",
-    	"sign_type ": "RSA",
+    	"sign_type": "RSA",
     	"sign": "ZPZULntRpJwFmGNIVKwjLEF2Tze7bqs60rxQ22CqT5J1UlvGo575QK9z/+p+7E9cOoRoWzqR6xHZ6WVv3dloyGKDR0btvrdqPgUAoeaX/YOWzTh00vwcQ+HBtXE+vPTfAqjCTxiiSJEOY7ATCF1q7iP3sfQxhS0nDUug1LP3OLk="
     }'
 ```
@@ -53,24 +54,25 @@ The following parameters are returned only when ```ret_code=0000```:
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
-|sign_type|Required|String(3)|RSA |
+|sign_type|Required|String(3)|RSA or SHA256withRSA |
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
 |user_id|Required|String(32)|The unique identification assigned to the user in the merchant’s system|
 |card_no|Required|String(4)| The card no used in original request. |
-|no_agree|Optional|String(16)| A token which represents the key payment information, refer to [Card bind document](card-bind-overview.md) for more details |
+|no_agree|Optional|String(16)| A token which represents the key payment information |
+|no_order|Optional|String| Card binding application serial number.|
 
 ###### Sample Response
 
 ```json
 {
-	"ret_code": "0000",
-	"ret_msg": "交易成功",
-	"oid_partner": "201103171000000000",
-	"user_id": "2013051500001",
-	"card_no ": "622202112313213123",
-	"no_agree": "2013051613121201",
-	"sign_type": "RSA",
-	"sign": "ZPZULntRpJwFmGNIVKwjLEF2Tze7bqs60rxQ22CqT5J1UlvGo575QK9z/+p+7E9cOoRoWzqR6xHZ6WVv3dloyGKDR0btvrdqPgUAoeaX/YOWzTh00vwcQ+HBtXE+vPTfAqjCTxiiSJEOY7ATCF1q7iP3sfQxhS0nDUug1LP3OLk="
-}
+	"ret_code":"0000", 
+	"ret_msg":交易成功", 
+	"oid_partner":"201103171000000000", 
+	"user_id":"2013051500001", 
+	"card_no":"622202112313213123", 
+	"no_agree":"2013051613121201", 
+	"sign_type":"RSA", 
+	"sign":"ZPZULntRpJwFmGNIVKwjLEF2Tze7bqs60rxQ22CqT5J1UlvGo575QK9z/+p+7E9cOoRoWzqR6xHZ6WVv3dloyGKDR0btvrdqPgUAoeaX/YOWzTh00vwcQ+HBtXE+vPTfAqjCTxiiSJEOY7ATCF1q7iP3sfQxhS0nDUug1LP3OLk="
+	}
 ```

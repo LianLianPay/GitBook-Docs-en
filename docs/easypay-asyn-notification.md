@@ -1,4 +1,4 @@
-# Aggregate Payment Asynchronous Notification
+# Easy Payment Asynchronous Notification
 
 This asynchronous notification is sent out to the ```notify_url``` of the original request whenever a transaction is confirmed as ```SUCCESS``` in our system. 
 

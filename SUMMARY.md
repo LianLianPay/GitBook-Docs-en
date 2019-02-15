@@ -6,6 +6,22 @@
 
 * [Preparation](docs/prepartion.md)
 
+## MPAY Payment API
+
+* [Overview](docs/mpay-direct.md)
+
+* [Card Bind Apply API](docs/MPAY-card-bind-apply.md)
+
+* [Card Bind Verify API](docs/MPAY-card-bind-verify.md)
+
+* [MPAY Apply Direct API](docs/MPAY-apply-direct-API.md)
+
+* [MPAY Verify Direct API](docs/MPAY-verify-direct-api.md)
+
+* [Asynchronous Notification](docs/MPAY-asyn-notification.md)
+
+* [Payment Result Query API](docs/MPAY_payment_result_query.md)
+
 ## Unified gateway payment
 
 * [Overview](unified-gateway-payment.md)
