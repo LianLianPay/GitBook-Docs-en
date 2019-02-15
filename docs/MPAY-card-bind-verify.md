@@ -9,7 +9,7 @@ This API verify the SMS verification code, token and then do the card bind actio
 ###### Endpoint
 
 ```text
-https://traderapi.lianlianpay.com/bankcardbindverfy.htm
+https://mpayapi.lianlianpay.com/v1/bankcardbindverfy
 ```
 
 ###### Parameter
@@ -27,7 +27,7 @@ https://traderapi.lianlianpay.com/bankcardbindverfy.htm
 ###### Sample Request
 
 ```curl
-curl https://traderapi.lianlianpay.com/bankcardbindverfy.htm \
+curl https://mpayapi.lianlianpay.com/v1/bankcardbindverfy \
 -H "Content-type:application/json;charset=utf-8" \
 -d '{
     	"oid_partner": "201103171000000000",
