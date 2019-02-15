@@ -30,7 +30,6 @@ All risk parameters ought to be set in a json format and assigned to ```risk_ite
 |:---|:---|:---|:---|
 |frms_ware_category|Required|String||
 |user_info_mercht_userno|Required|String| Merchant user No. Value can be same with ```user_id``` |
-|goods_count|Required|String|Quantity of goods|
 |user_info_bind_phone|Required|String|Merchant user phone number. Required when merchants hold this info.|
 |user_info_dt_register|Required|String(14)|User registration time at merchant side. Format: yyyyMMddHHmmss|
 |goods_name|Required|String| Product name. Can be same with ```name_goods```|
@@ -108,12 +107,15 @@ In case there are several goods for one order，please send following parameters
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
-|delivery_addr_full|Required|String|Address full name includes county (district)|
+|delivery_full_name|Required|String|Consignee Name|
 |delivery_addr_province|Required|String|Province code |
 |delivery_addr_city|Required|String|City code|
 |delivery_phone|Required|String|Mobile phone number of recipient|
 |logistics_mode|Required|String|1, Post <br> 2, Ordinary Express<br> 3, Express delivery <br> 4, Logistics freight company <br> 5, Logistics and distribution company <br> 6, International express <br> 7, Shipping express <br> 8, Ocean Shipping <br>  9, Package Deliver & Pick up |
 |delivery_cycle|Required|String|12h, Within 12 hours <br> 24h, Within 24 hours <br> 48h, Within 48 hours <br> 72h, Within 72 hours <br> other, 3 days later |
+|goods_count|Required|String|Amount of products.|
+|virtual_goods_status|Required|String|If there is any virtual goods? <br> 0 - No 1 - Yes|
+|virtual_goods_amount|Optional|String|The amount of the virtual goods in CNY. Required when ```virtual_goods_status``` = 0|
 
 ***
 
