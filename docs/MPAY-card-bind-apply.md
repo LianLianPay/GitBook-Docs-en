@@ -76,10 +76,10 @@ curl https://mpayapi.lianlianpay.com/v1/bankcardbind \
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
-|ret_code|Required|String(4)|Return code, whether the request is handled successfully or not. Refer to [return codes](return-codes.md)|
+|ret_code|Required|String(4)|Return code, whether the request is handled successfully or not. Refer to [return codes](return-codes.md)<br>8888, need to verify card binding request.|
 |ret_msg|Required|String(100)|Return message, description of ```ret_code```, in Chinese |
 
-The following parameters are returned only when ```ret_code=0000```:
+The following parameters are returned only when ```ret_code=8888```:
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
@@ -95,8 +95,8 @@ The following parameters are returned only when ```ret_code=0000```:
 
 ```json
 {
-	"ret_code":"0000", 
-	"ret_msg":交易成功", 
+	"ret_code":"8888", 
+	"ret_msg":"短信已下发，需要再次验证", 
 	"token":"D096DBA0E3E0CC8F1D504C06E71D292D", 
 	"oid_partner":"201103171000000000", 
 	"user_id ":"20130515094013", 

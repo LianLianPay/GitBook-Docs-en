@@ -87,10 +87,10 @@ The response of this API is possible to include the payment result directly when
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
-|ret_code|Required|String(4)|Return code, whether the request is handled successfully or not. Refer to [return codes](return-codes.md)|
+|ret_code|Required|String(4)|Return code, whether the request is handled successfully or not. Refer to [return codes](return-codes.md)<br>8888, need to verify the payment request<br>0000, request successfully |
 |ret_msg|Required|String(100)|Return message, description of ```ret_code```, in Chinese |
 
-The following parameters are returned only when ```ret_code=0000```:
+The following parameters are returned only when ```ret_code=8888```:
 
 |Name|Required|Type|Description|
 |:---|:---|:---|:---|
@@ -104,6 +104,18 @@ The following parameters are returned only when ```ret_code=0000```:
 |token|Optional|String| It'll lose effectiveness in 30 minutes. Won't return if **No SMS Verification Flow** is setup.  Used for [MPAY Verify Direct API](MPAY-verify-direct-api.md)|
 |info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|
 
+The following parameters are returned only when ```ret_code=0000```:
+
+|Name|Required|Type|Description|
+|:---|:---|:---|:---|
+|oid_partner|Required|String(18)|The unique identification assigned to the merchant. E.g. 201304121000001004|
+|sign_type|Required|String(3)|Fixed value, RSA or SHA256WITHRSA|
+|sign|Required|String|Signature value, refer to [signature document](signature.md)|
+|no_order|Required|String(32)|Merchant transaction No.|
+|dt_order|Required|String(14)|The date when the transaction is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714|
+|oid_paybill|Optional|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098. Returned when the transaction object is created successfully. |
+|money_order|Required|String(12)|Merchant transaction amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in the currency of ```currency_order```|
+|info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|
 
 The following parameters are returned only when ```result_pay=SUCCESS```:
 
@@ -111,6 +123,7 @@ The following parameters are returned only when ```result_pay=SUCCESS```:
 |:---|:---|:---|:---|
 |settle_date|Optional|String(8)| Format YYYYMMdd. |
 |no_agree|Optional|String(16)| A token which represents the key payment information|
+
 
 ###### Sample Response
 
