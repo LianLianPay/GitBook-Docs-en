@@ -50,7 +50,7 @@ curl https://instantpay.lianlianpay.com/paymentapi/queryPayment.htm \
 |no_order|Required|String(32)|Merchant order No.|
 |dt_order|Required|String(14)|Merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Required|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
-|money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|
+|money_order|Required|String(12)|Merchant order amount, 2 decimal places are expected, in CNY.|
 |result_pay|Required|String| SUCCESS, payment is successful. <br> WAITING, waiting for payment result form the issuing bank. <br> PROCESSING, payment is processing by banks. <br> CANCEL, the payment is reversed by issuing bank.<br> FAILURE, the payment is failed. <br> CHECK, the payment need to confrim. <br>CLOSED, No confirmation was made within 24 hours when it is needed.|
 |settle_date|Optional|String(8)| Format YYYYMMDD. Returns when payment is successful|
 |info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|

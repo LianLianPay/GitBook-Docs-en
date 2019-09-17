@@ -27,7 +27,7 @@ https://mpayapi.lianlianpay.com/v1/bankcardprepay
 |dt_order|Required|String(14)|The date when the transaction is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |name_goods|Required|String(40)|Product name. E.g. Pen|
 |info_order|Optional|String(255)|```info_order``` will be sent back in synchronous or asynchronous notification for parameters transmission|
-|money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected|
+|money_order|Required|String(12)|Merchant order amount, 2 decimal places are expected|
 |notify_url|Required|String(128)|Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify|
 |valid_order|Optional|Int|The valid period of ```no_order```, in minute. The status of corresponding transaction will be set to "Closed" once its ```valid_order``` run out. Default: 10080 (7 days). |
 |risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment-risk-item.md)| 

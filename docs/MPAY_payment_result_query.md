@@ -50,7 +50,7 @@ curl https://queryapi.lianlianpay.com/orderquery.htm \
 |no_order|Required|String(32)|Merchant order No.|
 |dt_order|Required|String(14)|Merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |oid_paybill|Required|String(18)|Unique transaction No. in LianLian system. E.g. 2011030900001098|
-|money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|
+|money_order|Required|String(12)|Merchant order amount,2 decimal places are expected, in CNY|
 |result_pay|Required|String| SUCCESS, payment is successful <br> WAITING, waiting for payment result <br> PROCESSING, payment is processing by banks <br> REFUND, the payment is reversed <br> FAILURE, the payment is failed <br> This is the final transaction status. You may do delivery according to this field|
 |settle_date|Optional|String(8)| Format YYYYMMDD. Returns when payment is successful|
 |info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|

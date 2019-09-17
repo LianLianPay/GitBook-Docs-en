@@ -20,7 +20,7 @@ https://instantpay.lianlianpay.com/paymentapi/payment.htm
 |sign_type|Required|String(3)|RSA |
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
 |flag_card|Required|String(1)|Flag of the card type.<br>1.Personal debit card<br>2.Business bank settlement accounts|
-|money_order|Required|String(12)|Merchant order amount in CNY, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected.|
+|money_order|Required|String(12)|Merchant order amount in CNY, 2 decimal places are expected.|
 |no_order|Required|String(32)|Original merchant order No. |
 |dt_order|Required|String(14)|Original merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |card_no|Required|String|User's card number|

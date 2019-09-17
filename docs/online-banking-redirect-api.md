@@ -33,7 +33,7 @@ https://payment.lianlianpay.com/payment/bankgateway.htm
 |dt_order|Required|String(14)|Merchant order date. Format: yyyyMMddHHmmss, E.g. 20170801225714|
 |name_goods|Required|String(40)|Product name. E.g. Pen|
 |info_order|Optional|String(255)|```info_order``` will be sent back in asynchronous notification for parameters transmission|
-|money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in CNY|
+|money_order|Required|String(12)|Merchant order amount, 2 decimal places are expected, in CNY|
 |notify_url|Required|String(128)|Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify|
 |url_return|Optional|String(128)|Online url, your customer will be redirected to ```url_return``` once they finished their payment|
 |userreq_ip|Optional|String(32)|The IP address of your customer, used for anti-fraud purpose. Replace "." with "_", E.g. 122_11_37_211|

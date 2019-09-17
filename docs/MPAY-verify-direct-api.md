@@ -23,7 +23,7 @@ https://mpayapi.lianlianpay.com/v1/bankcardprepay
 |token|Required|String| It'll lose effectiveness in 30 minutes. |
 |sign_type|Required|String(3)|RSA or SHA256withRSA|
 |sign|Required|String|Signature value, refer to [signature document](signature.md)|
-|money_order|Required|String(12)|Merchant order amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected,|
+|money_order|Required|String(12)|Merchant order amount,  2 decimal places are expected,|
 |verify_code|Required|String(6)|The SMS verification code sent in [MPAY Apply Direct API](MPAY-apply-direct-API.md)|
 
 
