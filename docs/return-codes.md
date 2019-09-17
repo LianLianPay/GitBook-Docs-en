@@ -61,6 +61,12 @@
 |3010|商户支付权限不足|The used ```oid_partner``` does NOT have proper payment access|
 |3011|用户签约信息不存在|The used ```no_agree``` of user does NOT exist|
 |4000|解约失败，请联系发卡行|Card unbinding failed. Please contact your card issuer|
+|4001|该订单不存在或非复核状态|Incorrect order id or no confirmation is needed.|
+|4002|疑似重复提交订单|Suspected duplicate order.|
+|4003|收款银行卡和姓名不一致|The account name does not match the card number.|
+|4004|疑似重复提交订单且收款银行卡和姓名不一致|Suspected duplicate order and the account name does not match the card number.|
+|4005|商户没有实时付款权限|The merchant account do NOT have the payment product right.|
+|4007|敏感信息解密异常|Decryption failed.|
 |5001|卡bin校验失败|Card bin identification failed|
 |5002|原始交易不存在|Original transaction does NOT exist|
 |5003|退款金额错误|Refund amount is inconsistent with the original transaction amount|

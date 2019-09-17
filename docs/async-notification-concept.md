@@ -1,6 +1,6 @@
 # Asynchronous Notification
 
-Asynchronous notification is a HTTP request which is sent from LianLian to notify you about the status of a specific transaction. There are 2 types of notification involved with Exchange Payment which you can find as [Exchange Payment Asynchronous Notification](exchange-payment-async-notification.md) and [Refund Asynchronous Notification](refund-async-notification.md) in this book.
+Asynchronous notification is a HTTP request which is sent from LianLian to notify you about the status of a specific transaction. 
 
 In this section, you will learn about the common concept and features of asynchronous notification.
 
@@ -25,12 +25,10 @@ Request.inputStream; // c#
 * It is sent from below IP addresses, which we recommend you to add in whitelist:
 
 ```text
-112.80.55.210 ~ 112.80.55.214
-115.236.98.22
-115.238.110.126
-211.140.27.205
-218.4.207.154 ~ 218.4.207.158
-223.112.79.242 ~ 223.112.79.246
+115.236.102.36，101.71.136.20，112.17.38.116，115.238.30.68，118.184.186.141，118.184.156.45
+218.4.207.155，218.4.207.156
+112.80.55.210，112.80.55.211
+223.112.79.242，223.112.79.243
 ```  
 
 > The HTTP protocol of asynchronous notification is set according to the protocol of ```notify_url``` which you set in the original request. The recommended version of ```TLS``` is not lower than ```1.2``` if you are using ```HTTPS``` protocol.
