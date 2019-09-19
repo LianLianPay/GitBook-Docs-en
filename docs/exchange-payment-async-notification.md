@@ -21,7 +21,7 @@ This asynchronous notification is sent out to the ```notify_url``` of the origin
 |result_pay|Required|String| Payment result. <br> SUCCESS - Payment proceed successfully <br> PROCESSING -  Payment is processing. Return only when **No SMS Verification Flow** is setup|
 |settle_date|Required|String(8)| Format YYYYMMDD. |
 |info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|
-|pay_type|Optional|String(1)| The pay type used in current transaction.|
+|pay_type|Required|String(1)| The pay type used in current transaction.|
 |bank_code|Optional|String(8)| The bank short code of the payer's card issuer|
 |currency_order|Required|String(3)|The currency used in the transaction. Refer to [supported currencies](supported-currencies.md) |
 |money_order|Required|String(12)|Merchant transaction amount, range: 0.01 ~ 100,000,000.00, 2 decimal places are expected, in the currency of ```currency_order```|

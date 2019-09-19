@@ -7,11 +7,11 @@ In this section, you will learn about how to generate your private key and publi
 ## Generate private key
 
 ```html
-openssl genrsa -out rsa_private_key.pem 1024
+openssl genrsa -out rsa_private_key.pem 2048
 ```
 A file named ```rsa_private_key.pem``` should be generated in your current folder. 
 
-The following steps are required for Java and C#, if you are using PHP, you can continue with [Generate public key](#generate-public-key).
+The following steps are required for Java and C#, if you are using PHP, you can continue with [Generate public key](#Generate public key and upload it to LianLian dashboard).
 
 Convert ```rsa_private_key.pem``` in the format of PKCS8.
 

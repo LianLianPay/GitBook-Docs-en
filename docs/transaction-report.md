@@ -6,7 +6,7 @@ LianLian provides 2 ways for you to obtain reports:
 
 * Download it from [merchant dashboard](https://b.lianlianpay.com/trader/login.htm).
 
-* Download it from Sftp servers. In order to obtain Sftp access, you need to contact [tech_support@yintong.com.cn](mailto:tech_support@yintong.com.cn).
+* Download it from Sftp servers. In order to obtain Sftp access, you need to contact [tech_support@lianlianpay.com](mailto:tech_support@lianlianpay.com).
 
 ***
 

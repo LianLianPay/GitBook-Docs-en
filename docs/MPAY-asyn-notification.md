@@ -20,7 +20,7 @@ This asynchronous notification is sent out to the ```notify_url``` of the origin
 |result_pay|Required|String| Payment result. E.g. SUCCESS|
 |settle_date|Optional|String(8)| Format YYYYMMDD. Returns when payment is successful|
 |info_order|Optional|String(255)| Returns when ```info_order``` is sent in API requests|
-|pay_type|Optional|String| The payment method used in this transaction. <br>2, Quick payment - Debit card <br> 3, Quick payment - Credit card <br> P, New Authenticate Payment| 
+|pay_type|Required|String| The payment method used in this transaction. <br>2, Quick payment - Debit card <br> 3, Quick payment - Credit card <br> P, New Authenticate Payment| 
 |bank_code|Optional|String| Short codes of banks |
 |no_agree|Optional|String| A token which represents the key payment information, refer to [Binding Card](mpay-direct.md) for more details |
 |id_type|Optional|String(1)|*Returned after configuration*. 0, ID card <br> 2, Passport <br> 3, Military Officer Certificate <br> 4, Hong Kong-Macau laissez-passer <br> 6, Mainland travel permit for Taiwan residents <br> 9, Police Officer card <br> X, other certificates |

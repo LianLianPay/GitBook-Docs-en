@@ -81,7 +81,6 @@ The following parameters are returned only when ```result_pay=SUCCESS```:
 
 ###### Sample Response
 
-Below is a sample response without **No SMS Verification Flow** when ```ret_code=0000```.
 
 ```json
 {

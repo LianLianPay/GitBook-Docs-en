@@ -10,6 +10,7 @@
 * [instant payment confirm API](docs/instant-payment-confirm-API.md)
 * [instant payment notification](docs/instant-payment-notification.md)
 * [instant payment result query.md](docs/instant-payment-result-query.md)
+* [balance-query-api](docs/balance-query-api.md)
 
 ## MPAY Payment API
 * [Overview](docs/mpay-direct.md)
