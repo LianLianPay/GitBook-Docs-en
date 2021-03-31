@@ -23,8 +23,6 @@ https://mpayapi.lianlianpay.com/v1/bankcardbind
 |pay_type|Required|String| 2, Quick payment - Debit card <br> 3, Quick payment - Credit card <br> P, New Authenticate Payment |
 |api_version|Required|String(6)|Fixed value, ```2.1```|
 |risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment_risk_item.md)| 
-|vali_date|Optional|String| The expire date of credit card. Required for credit card|
-|cvv2|Optional|String| The CVV/CVC2 of credit card. Required for credit card|
 |id_type|Required|String(1)| 0, ID card <br> 2, Passport <br> 3, Military Officer Certificate <br> 4, Hong Kong-Macau laissez-passer <br> 6, Mainland travel permit for Taiwan residents <br> 9, Police Officer card <br> X, other certificates |
 |id_no|Required|String| The number of User's ID card. The length need to be either 15 or 18|
 |acct_name|Required|String| The name of payer, in Chinese|
@@ -43,7 +41,6 @@ The request message before being encrypted.
         "acct_name": "李天增", 
 		"bind_mob": "18667341234", 
 		"card_no": "8888888888888888", 
-		"cvv2": "222", 
 		"dt_order": "20180828153543", 
 		"id_no": "330401198001014616", 
 		"id_type": "0", 
