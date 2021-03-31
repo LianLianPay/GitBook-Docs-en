@@ -27,6 +27,8 @@ https://mpayapi.lianlianpay.com/v1/bankcardbind
 |id_no|Required|String| The number of User's ID card. The length need to be either 15 or 18.|
 |acct_name|Required|String| The name of payer, in Chinese.|
 |card_no|Required|String| User's card number|
+|cvv2|Optional|String|The CVV/CVC2 of credit card. Required for credit card.|
+|vali_date|Optional|String|The expire date of credit card. Required for credit card.|
 |risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment-risk-item.md)|
 |bind_mob|Required|String| User's phone number, currently only support China domestic number.|
 |notify_url|Optional|String| Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify. |
