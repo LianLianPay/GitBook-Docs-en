@@ -24,14 +24,14 @@ https://mpayapi.lianlianpay.com/v1/bankcardbind
 |api_version|Required|String(6)|Fixed value, ```2.1```|
 |risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment_risk_item.md)| 
 |id_type|Required|String(1)| 0, ID card <br> 2, Passport <br> 3, Military Officer Certificate <br> 4, Hong Kong-Macau laissez-passer <br> 6, Mainland travel permit for Taiwan residents <br> 9, Police Officer card <br> X, other certificates |
-|id_no|Required|String| The number of User's ID card. The length need to be either 15 or 18|
-|acct_name|Required|String| The name of payer, in Chinese|
+|id_no|Required|String| The number of User's ID card. The length need to be either 15 or 18.|
+|acct_name|Required|String| The name of payer, in Chinese.|
 |card_no|Required|String| User's card number|
 |risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment-risk-item.md)|
 |bind_mob|Required|String| User's phone number, currently only support China domestic number.|
 |notify_url|Optional|String| Online url where asynchronous notification should be sent, E.g. http://www.lianlianpay.com/help/notify. |
 |no_order|Optional|String| Card binding application serial number.|
-|dt_order|Optional|String| The date when the card binding application is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714|
+|dt_order|Optional|String| The date when the card binding application is initialized. Format: yyyyMMddHHmmss, E.g. 20170801225714.|
 
 ###### Sample Request
 
