@@ -32,9 +32,7 @@ https://mpayapi.lianlianpay.com/v1/bankcardprepay
 |valid_order|Optional|Int|The valid period of ```no_order```, in minute. The status of corresponding transaction will be set to "Closed" once its ```valid_order``` run out. Default: 10080 (7 days). |
 |risk_item|Required|String| This parameter is used for payment risk control, all required parameters should be included in the value of ```risk_item``` in json format, refer to [Payment Risk](payment-risk-item.md)| 
 |pay_type|Required|String| 2, Quick payment - Debit card <br> 3, Quick payment - Credit card <br> P, New Authenticate Payment |
-|vali_date|Optional|String| The expire date of credit card. Required for credit card|
 |card_no|Required|String|User's card number|
-|cvv2|Optional|String|The CVV/CVC2 of credit card. Required for credit card|
 |bank_code|Optional|String(18)|The bank short code of used card.|
 |acct_name|Required|String|The name of payer, in Chinese|
 |bind_mob|Required|String| User's phone number, currently only support China domestic number.|
@@ -54,7 +52,6 @@ The request message before being encrypted.
 		"bind_mob": "18667341234", 
 		"busi_partner": "101001", 
 		"card_no": "8888888888888888", 
-		"cvv2": "222", 
 		"dt_order": "20180828153543", 
 		"id_no": "330401198001014616", 
 		"money_order": "55.44", 
